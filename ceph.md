@@ -143,17 +143,14 @@ wget -q -O- 'https://download.ceph.com/keys/release.asc' | sudo apt-key add -
 ## 其他节点安装ceph-common
 为了在其他节点也能够直接访问Ceph集群，我们需要在其他节点上也安装ceph-common。
 cephadm以外的其他节点执行:
-	```bash
+```bash
+# mkdir ~/cephadmin
+# mkdir /etc/ceph
+```
 
-  	# mkdir ~/cephadmin
-	# mkdir /etc/ceph
-
-
-
-   ```
 从cephadm节点以拷贝cephadm，ceph集群配置文件，ceph客户端管理员密钥到其他节点：
 
-​```bash
+```bash
 # scp ~/cephadmin/cephadm root@manager01.xxx.com:~/cephadmin/
 # scp ~/cephadmin/cephadm root@manager02.xxx.com:~/cephadmin/
 # scp ~/cephadmin/cephadm root@worker01.xxx.com:~/cephadmin/
@@ -165,7 +162,7 @@ cephadm以外的其他节点执行:
 # scp /etc/ceph/ceph.client.admin.keyring root@manager01.xxx.com:/etc/ceph/
 # scp /etc/ceph/ceph.client.admin.keyring root@manager02.xxx.com:/etc/ceph/
 # scp /etc/ceph/ceph.client.admin.keyring root@worker01.xxx.com:/etc/ceph/
-   ```
+```
 其他节点执行:
 ```bash
 # cd ~/cephadmin
