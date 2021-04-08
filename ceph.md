@@ -109,6 +109,7 @@ wget -q -O- 'https://download.ceph.com/keys/release.asc' | sudo apt-key add -
    # ssh-copy-id -f -i /etc/ceph/ceph.pub root@*<new-host>*
    ```
 需要提前在/etc/hosts和/etc/hostname修改需要添加的host名称和内网IP地址
+
 2. 告诉Ceph，新节点是集群的一部分：
 
    ```bash
