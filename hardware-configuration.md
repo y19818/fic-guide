@@ -22,8 +22,8 @@
 
   | PreCommit Worker显卡 | Commit Worker显卡 | 比例  | 备注 |
   | -------------------- | ----------------- | :---: | ---- |
-  | NVIDIA 2080 * 1      | NVIDIA 2080 * 2   | 3 : 2 |      |
-  | NVIDIA 2080 * 1      | NVIDIA 2080 * 3   | 2 : 1 |      |
+  | NVIDIA 2080TI * 1    | NVIDIA 2080TI * 2 | 3 : 2 |      |
+  | NVIDIA 2080TI * 1    | NVIDIA 2080TI * 3 | 2 : 1 |      |
 
 - 存储集群：采用Ceph分布式存储集群。
 
