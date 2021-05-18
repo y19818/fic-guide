@@ -2,6 +2,22 @@
 
 ### 搭建编译环境
 
+
+本文以 `Ubuntu 18.04` 系统为例搭建开发环境，首先需要安装依赖项，依赖项没有安装好的话，会导致 `lotus` 编译无法通过，也就无法执行后续的命令。
+
+本文教程所需的机器配置：双核 CPU + 8G 内存
+
+安装基础依赖的方法：
+
+```sh
+sudo apt upgrade -y
+sudo apt install mesa-opencl-icd ocl-icd-opencl-dev gcc git bzr jq pkg-config curl clang -y
+sudo apt install build-essential hwloc libhwloc-dev wget -y
+sudo apt upgrade -y
+```
+
+**注：** 如果没有设置过本地 `apt 更新源`，建议使用国内的 [【阿里云】](https://developer.aliyun.com/mirror/ubuntu?spm=a2c6h.13651102.0.0.3e221b11IlyctM) 的源，或者是 [【163】](https://mirrors.163.com/.help/ubuntu.html) 的源，或者是 [【腾讯云】](https://mirrors.tencent.com/help/ubuntu.html) 的源，这样安装依赖软件会快速些。
+
 1. 安装 go 语言环境以及编译所需要的依赖库
 
    ```bash
@@ -124,8 +140,21 @@ miner 的配置文档在 `$LOTUS_MINER_PATH/config.toml`，如果你是跑单节
 ### 启动lotus-miner
 
 ```bash
-lotus-miner run > miner.log 2>&1 &
+$ nohup lotus-miner run > miner.log 2>&1 &
 ```
+
+#### 配置Worker其他环境变量
+```sh
+export FIL_PROOFS_USE_MULTICORE_SDR=1
+export FIL_PROOFS_MAXIMIZE_CACHING=1
+export FIL_PROOFS_USE_GPU_COLUMN_BUILDER=1
+export FIL_PROOFS_USE_GPU_TREE_BUILDER=1
+```
+其中：
+- `FIL_PROOFS_USE_MULTICORE_SDR`：PreCommit1多CPU核心绑定；
+- `FIL_PROOFS_MAXIMIZE_CACHING`：PreCommit1开启内存最大化；
+- `FIL_PROOFS_USE_GPU_COLUMN_BUILDER`：使用GPU计算COLUMN hash；
+- `FIL_PROOFS_USE_GPU_TREE_BUILDER`：使用GPU计算TREE hash；
 
 ### 启动lotus-worker
 
@@ -136,7 +165,7 @@ lotus-miner run > miner.log 2>&1 &
    - 启动一个只接 P1 任务的 worker
 
      ```bash
-      lotus-worker run --listen=11.11.11.11:2345 --precommit1=true --precommit2=false -commit=false
+      $ lotus-worker run --listen=11.11.11.11:2345 --precommit1=true --precommit2=false -commit=false
      ```
 
      注意： `11.11.11.11` 需要替换成你 worker 的内网 IP 地址。
@@ -144,29 +173,56 @@ lotus-miner run > miner.log 2>&1 &
    - 启动一个可以同时接 P1 和 P2 任务的 worker
 
      ```bash
-      lotus-worker run --listen=11.11.11.11:2345 --precommit1=true --precommit2=true -commit=false
+      $ lotus-worker run --listen=11.11.11.11:2345 --precommit1=true --precommit2=true -commit=false
      ```
 
    - 启动一个只接 C2 任务的 worker
 
      ```bash
-      lotus-worker run --listen=11.11.11.11:2345 --precommit1=false --precommit2=false -commit=true
+      $ lotus-worker run --listen=11.11.11.11:2345 --precommit1=false --precommit2=false -commit=true
      ```
 
 worker 启动之后会自动通过我们在 `lotus-worker` 脚本里配置的 API 信息，连接到 miner 领取任务，你可以通过下面的命令查看已经连接到 miner 的 worker 列表。
 
 ```bash
-lotus-miner sealing workers
+$ lotus-miner sealing workers
 ```
 
 Worker 也启动了，那么接下来我们就可以开始质押扇区，启动挖矿了。
 
 ```bash
-lotus-miner sectors pledge # 质押一个随机数据的扇区，开始密封
+$ lotus-miner sectors pledge # 质押一个随机数据的扇区，开始密封
 ```
 
 查询当前集群的任务分配情况：
 
 ```bash
-lotus-miner sealing jobs
+$ lotus-miner sealing jobs
+```
+
+查看Miner状态：
+
+```bash
+$ lotus-miner info
+```
+
+### 封装Sector
+#### 封装一个sector
+```sh
+$ lotus-miner sectors pledge
+```
+
+#### 查看启动的封装任务
+```sh
+$ lotus-miner sealing jobs
+```
+
+#### 检查启动的workers
+```sh
+$ lotus-miner sealing workers
+```
+
+#### 查看sector信息
+```sh
+$ lotus-miner sectors list
 ```
