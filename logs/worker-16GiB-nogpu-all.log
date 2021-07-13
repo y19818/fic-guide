@@ -1,0 +1,38 @@
+2021-07-13T11:15:52.328Z	[34mINFO[0m	main	lotus-seal-worker/main.go:292	Starting lotus worker
+2021-07-13T11:15:52.331Z	[34mINFO[0m	main	lotus-seal-worker/main.go:337	Remote version 1.2.2+git.ee2a8a668.dirty+intel+avx+20210305_180008+api1.0.0
+2021-07-13T11:15:52.335Z	[34mINFO[0m	build	go-paramfetch/paramfetch.go:139	Parameter file /mnt/lykj/filecoin-proof-parameters/v28-proof-of-spacetime-fallback-merkletree-poseidon_hasher-8-0-0-0170db1f394b35d995252228ee359194b13199d259380541dc529fb0099096b0.vk is ok
+2021-07-13T11:15:52.336Z	[34mINFO[0m	build	go-paramfetch/paramfetch.go:139	Parameter file /mnt/lykj/filecoin-proof-parameters/v28-proof-of-spacetime-fallback-merkletree-poseidon_hasher-8-0-0-23807ff142251ff42f38810834724169c8f81ca563d360f1502363f6f8ad580c.vk is ok
+2021-07-13T11:15:52.336Z	[34mINFO[0m	build	go-paramfetch/paramfetch.go:139	Parameter file /mnt/lykj/filecoin-proof-parameters/v28-proof-of-spacetime-fallback-merkletree-poseidon_hasher-8-4-0-a01cdbef817cac42c9566e38490f0b4d299e2752af52a78b2a9d38b24286d5b4.vk is ok
+2021-07-13T11:15:52.336Z	[34mINFO[0m	build	go-paramfetch/paramfetch.go:139	Parameter file /mnt/lykj/filecoin-proof-parameters/v28-stacked-proof-of-replication-merkletree-poseidon_hasher-8-0-0-sha256_hasher-fcc4520bb35a7a20aa871fbad43e6aa887de9fbe1131c5cb365c47c83601a5b2.vk is ok
+2021-07-13T11:15:52.336Z	[34mINFO[0m	build	go-paramfetch/paramfetch.go:139	Parameter file /mnt/lykj/filecoin-proof-parameters/v28-stacked-proof-of-replication-merkletree-poseidon_hasher-8-0-0-sha256_hasher-032d3138d22506ec0082ed72b2dcba18df18477904e35bafee82b3793b06832f.vk is ok
+2021-07-13T11:15:52.336Z	[34mINFO[0m	build	go-paramfetch/paramfetch.go:139	Parameter file /mnt/lykj/filecoin-proof-parameters/v28-stacked-proof-of-replication-merkletree-poseidon_hasher-8-4-0-sha256_hasher-07c0adb3191b18918d631375516125e2900a1c437745539389cf154ec430c1c2.vk is ok
+2021-07-13T11:15:52.336Z	[34mINFO[0m	build	go-paramfetch/paramfetch.go:139	Parameter file /mnt/lykj/filecoin-proof-parameters/v28-proof-of-spacetime-fallback-merkletree-poseidon_hasher-8-0-0-3ea05428c9d11689f23529cde32fd30aabd50f7d2c93657c1d3650bca3e8ea9e.vk is ok
+2021-07-13T11:15:52.338Z	[34mINFO[0m	build	go-paramfetch/paramfetch.go:139	Parameter file /mnt/lykj/filecoin-proof-parameters/v28-proof-of-spacetime-fallback-merkletree-poseidon_hasher-8-0-0-3be65b9045f13d2c857d62c18a5dcc9a7a83b0ff84e61a91979ba1ba6d1812c7.vk is ok
+2021-07-13T11:15:52.344Z	[34mINFO[0m	build	go-paramfetch/paramfetch.go:139	Parameter file /mnt/lykj/filecoin-proof-parameters/v28-proof-of-spacetime-fallback-merkletree-poseidon_hasher-8-4-0-14020a794b2c2191f4e7462ed8cb9b86f2a2d719b1d13e6581d80ad981e6b098.vk is ok
+2021-07-13T11:15:52.742Z	[34mINFO[0m	build	go-paramfetch/paramfetch.go:139	Parameter file /mnt/lykj/filecoin-proof-parameters/v28-proof-of-spacetime-fallback-merkletree-poseidon_hasher-8-4-0-a01cdbef817cac42c9566e38490f0b4d299e2752af52a78b2a9d38b24286d5b4.params is ok
+2021-07-13T11:16:28.197Z	[34mINFO[0m	build	go-paramfetch/paramfetch.go:161	context closed... shutting down
+2021-07-13T11:16:28.198Z	[34mINFO[0m	repo	repo/fsrepo.go:121	Initializing repo at '/mnt/lykj/lotus-worker'
+2021-07-13T11:16:28.237Z	[34mINFO[0m	badger	v2@v2.2007.2/levels.go:183	All 0 tables opened in 0s
+
+2021-07-13T11:16:28.250Z	[34mINFO[0m	badger	v2@v2.2007.2/levels.go:183	All 0 tables opened in 0s
+
+2021-07-13T11:16:28.264Z	[34mINFO[0m	badger	v2@v2.2007.2/levels.go:183	All 0 tables opened in 0s
+
+2021-07-13T11:16:28.266Z	[34mINFO[0m	badger	v2@v2.2007.2/value.go:1158	Replaying file id: 0 at offset: 0
+
+2021-07-13T11:16:28.266Z	[34mINFO[0m	badger	v2@v2.2007.2/value.go:1178	Replay took: 5.871µs
+
+2021-07-13T11:16:28.269Z	[34mINFO[0m	badger	v2@v2.2007.2/levels.go:183	All 0 tables opened in 0s
+
+2021-07-13T11:16:28.271Z	[34mINFO[0m	badger	v2@v2.2007.2/value.go:1158	Replaying file id: 0 at offset: 0
+
+2021-07-13T11:16:28.271Z	[34mINFO[0m	badger	v2@v2.2007.2/value.go:1178	Replay took: 8.287µs
+
+2021-07-13T11:16:28.271Z	[34mINFO[0m	main	lotus-seal-worker/main.go:456	Opening local storage; connecting to master
+2021-07-13T11:16:28.276Z	[33mWARN[0m	main	lotus-seal-worker/main.go:100	opening path /mnt/lykj/lotus-worker:
+    github.com/filecoin-project/lotus/extern/sector-storage/stores.(*Local).open
+        /mnt/jenkins/workspace/FIC-Intel-Rel1.2_github/lotus/extern/sector-storage/stores/local.go:205
+  - declaring storage in index:
+    github.com/filecoin-project/lotus/extern/sector-storage/stores.(*Local).OpenPath
+        /mnt/jenkins/workspace/FIC-Intel-Rel1.2_github/lotus/extern/sector-storage/stores/local.go:184
+  - RPC client error: sendRequest failed: Post "http://192.168.18.14:2345/rpc/v0": context canceled

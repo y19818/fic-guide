@@ -1,0 +1,1217 @@
+2021-07-13T08:54:49.231Z	[34mINFO[0m	main	lotus-storage-miner/run.go:95	Checking full node sync status
+Worker: 1; Base: 741058; Target: 741059 (diff: 1)
+State: complete; Current Epoch: 741059; Todo: 0
+
+Done!
+2021-07-13T08:54:49.249Z	[34mINFO[0m	badger	v2@v2.2007.2/levels.go:183	All 0 tables opened in 0s
+
+2021-07-13T08:54:49.261Z	[34mINFO[0m	badger	v2@v2.2007.2/value.go:1158	Replaying file id: 0 at offset: 0
+
+2021-07-13T08:54:49.261Z	[34mINFO[0m	badger	v2@v2.2007.2/value.go:1178	Replay took: 5.177µs
+
+2021-07-13T08:54:49.282Z	[34mINFO[0m	badger	v2@v2.2007.2/levels.go:183	All 0 tables opened in 0s
+
+2021-07-13T08:54:49.284Z	[34mINFO[0m	badger	v2@v2.2007.2/value.go:1158	Replaying file id: 0 at offset: 0
+
+2021-07-13T08:54:49.284Z	[34mINFO[0m	badger	v2@v2.2007.2/value.go:1178	Replay took: 6.552µs
+
+2021-07-13T08:54:49.304Z	[34mINFO[0m	p2pnode	lp2p/addrs.go:114	Swarm listening at: [/ip4/127.0.0.1/tcp/33605 /ip4/192.168.18.14/tcp/33605 /ip6/::1/tcp/43597]
+2021-07-13T08:54:49.306Z	[34mINFO[0m	build	go-paramfetch/paramfetch.go:139	Parameter file /mnt/lykj/filecoin-proof-parameters/v28-proof-of-spacetime-fallback-merkletree-poseidon_hasher-8-0-0-23807ff142251ff42f38810834724169c8f81ca563d360f1502363f6f8ad580c.vk is ok
+2021-07-13T08:54:49.306Z	[34mINFO[0m	build	go-paramfetch/paramfetch.go:139	Parameter file /mnt/lykj/filecoin-proof-parameters/v28-proof-of-spacetime-fallback-merkletree-poseidon_hasher-8-0-0-0170db1f394b35d995252228ee359194b13199d259380541dc529fb0099096b0.vk is ok
+2021-07-13T08:54:49.306Z	[34mINFO[0m	build	go-paramfetch/paramfetch.go:139	Parameter file /mnt/lykj/filecoin-proof-parameters/v28-proof-of-spacetime-fallback-merkletree-poseidon_hasher-8-0-0-3ea05428c9d11689f23529cde32fd30aabd50f7d2c93657c1d3650bca3e8ea9e.vk is ok
+2021-07-13T08:54:49.306Z	[34mINFO[0m	build	go-paramfetch/paramfetch.go:139	Parameter file /mnt/lykj/filecoin-proof-parameters/v28-stacked-proof-of-replication-merkletree-poseidon_hasher-8-4-0-sha256_hasher-07c0adb3191b18918d631375516125e2900a1c437745539389cf154ec430c1c2.vk is ok
+2021-07-13T08:54:49.306Z	[34mINFO[0m	build	go-paramfetch/paramfetch.go:139	Parameter file /mnt/lykj/filecoin-proof-parameters/v28-stacked-proof-of-replication-merkletree-poseidon_hasher-8-0-0-sha256_hasher-032d3138d22506ec0082ed72b2dcba18df18477904e35bafee82b3793b06832f.vk is ok
+2021-07-13T08:54:49.306Z	[34mINFO[0m	build	go-paramfetch/paramfetch.go:139	Parameter file /mnt/lykj/filecoin-proof-parameters/v28-proof-of-spacetime-fallback-merkletree-poseidon_hasher-8-4-0-a01cdbef817cac42c9566e38490f0b4d299e2752af52a78b2a9d38b24286d5b4.vk is ok
+2021-07-13T08:54:49.306Z	[34mINFO[0m	build	go-paramfetch/paramfetch.go:139	Parameter file /mnt/lykj/filecoin-proof-parameters/v28-stacked-proof-of-replication-merkletree-poseidon_hasher-8-0-0-sha256_hasher-fcc4520bb35a7a20aa871fbad43e6aa887de9fbe1131c5cb365c47c83601a5b2.vk is ok
+2021-07-13T08:54:49.307Z	[34mINFO[0m	build	go-paramfetch/paramfetch.go:139	Parameter file /mnt/lykj/filecoin-proof-parameters/v28-proof-of-spacetime-fallback-merkletree-poseidon_hasher-8-0-0-3be65b9045f13d2c857d62c18a5dcc9a7a83b0ff84e61a91979ba1ba6d1812c7.vk is ok
+2021-07-13T08:54:49.311Z	[34mINFO[0m	build	go-paramfetch/paramfetch.go:139	Parameter file /mnt/lykj/filecoin-proof-parameters/v28-proof-of-spacetime-fallback-merkletree-poseidon_hasher-8-4-0-14020a794b2c2191f4e7462ed8cb9b86f2a2d719b1d13e6581d80ad981e6b098.vk is ok
+2021-07-13T08:54:49.713Z	[34mINFO[0m	build	go-paramfetch/paramfetch.go:139	Parameter file /mnt/lykj/filecoin-proof-parameters/v28-proof-of-spacetime-fallback-merkletree-poseidon_hasher-8-4-0-a01cdbef817cac42c9566e38490f0b4d299e2752af52a78b2a9d38b24286d5b4.params is ok
+2021-07-13T08:54:54.289Z	[34mINFO[0m	basichost	basic/natmgr.go:91	DiscoverNAT error:no NAT found
+2021-07-13T08:55:41.310Z	[34mINFO[0m	build	go-paramfetch/paramfetch.go:139	Parameter file /mnt/lykj/filecoin-proof-parameters/v28-stacked-proof-of-replication-merkletree-poseidon_hasher-8-4-0-sha256_hasher-07c0adb3191b18918d631375516125e2900a1c437745539389cf154ec430c1c2.params is ok
+2021-07-13T08:57:09.783Z	[34mINFO[0m	build	go-paramfetch/paramfetch.go:139	Parameter file /mnt/lykj/filecoin-proof-parameters/v28-proof-of-spacetime-fallback-merkletree-poseidon_hasher-8-4-0-14020a794b2c2191f4e7462ed8cb9b86f2a2d719b1d13e6581d80ad981e6b098.params is ok
+2021-07-13T08:57:09.783Z	[34mINFO[0m	build	go-paramfetch/paramfetch.go:163	parameter and key-fetching complete
+2021-07-13T08:57:09.786Z	[34mINFO[0m	stores	stores/index.go:138	New sector storage: ef7da41d-4b5a-4508-87b1-d0c494c4f284
+2021-07-13T08:57:09.867Z	[34mINFO[0m	storageminer	storage/miner.go:197	starting up miner f0625063, worker addr f3qnnh5673nis5iinqzw6juuxhkvreikok4jexm3rdwninkik4u2dzrvkh5qj36sg7eudjgrwat3ky3kij6mua
+2021-07-13T08:57:09.873Z	[34mINFO[0m	markets	loggers/loggers.go:56	module ready	{"module": "piecestore"}
+2021-07-13T08:57:09.873Z	[34mINFO[0m	markets	loggers/loggers.go:56	module ready	{"module": "retrieval provider"}
+2021-07-13T08:57:09.873Z	[34mINFO[0m	markets	loggers/loggers.go:56	module ready	{"module": "provider data transfer"}
+2021-07-13T08:57:09.873Z	[34mINFO[0m	markets	loggers/loggers.go:56	module ready	{"module": "storage provider"}
+2021-07-13T08:57:09.876Z	[34mINFO[0m	main	lotus-storage-miner/run.go:151	Remote version 1.2.2+git.ee2a8a668.dirty+intel+avx+20210305_180008+api1.0.0
+2021-07-13T08:57:09.915Z	[34mINFO[0m	miner	miner/warmup.go:49	skipping winning PoSt warmup, no sectors
+2021-07-13T08:57:12.929Z	[34mINFO[0m	stores	stores/index.go:138	New sector storage: dd66d16e-be29-4330-a903-5b43dbdcdcd9
+2021-07-13T08:57:16.024Z	[33mWARN[0m	rpc	go-jsonrpc@v0.1.2/handler.go:279	error in RPC call to 'Filecoin.StorageReportHealth': health report for unknown storage: b953878e-bafa-4a66-b91d-958a6ef1d8e8:
+    github.com/filecoin-project/lotus/extern/sector-storage/stores.(*Index).StorageReportHealth
+        /mnt/jenkins/workspace/FIC-Intel-Rel1.2_github/lotus/extern/sector-storage/stores/index.go:175
+2021-07-13T08:57:17.353Z	[34mINFO[0m	stores	stores/index.go:138	New sector storage: b953878e-bafa-4a66-b91d-958a6ef1d8e8
+2021-07-13T08:57:17.355Z	[34mINFO[0m	node	impl/storminer.go:305	Connected to a remote worker at http://192.168.18.66:3456/rpc/v0
+2021-07-13T09:02:37.814Z	[34mINFO[0m	stores	stores/index.go:138	New sector storage: 6dc4e4db-a354-4b20-b29a-60f373eb90b3
+2021-07-13T09:02:37.820Z	[34mINFO[0m	node	impl/storminer.go:305	Connected to a remote worker at http://192.168.18.13:3456/rpc/v0
+[5 4]
+acceptableWindows[sqi][i]: 4
+acceptableWindows[sqi][j]: 5
+wii: 3ec3fe47-8b19-4612-93fc-605d7d0d633f
+wji: 3ec3fe47-8b19-4612-93fc-605d7d0d633f
+run task worker id: 3ec3fe47-8b19-4612-93fc-605d7d0d633f
+2021-07-13T09:02:37.908Z	[33mWARN[0m	advmgr	sector-storage/manager_calltracker.go:149	canceling started (not running) work seal/v0/precommit/1([[{"ID":{"Miner":625063,"Number":2},"ProofType":6},"TYzsaLgE4OgsHPmsarXjBJpQHE6GQAJoktjGYY48jV8=",[{"Size":17179869184,"PieceCID":{"/":"baga6ea4seaqg2nsld34emra2ljfgrbrdcswmbjdpaftrpzjuipudt3w7qpbikpa"}}]]])
+2021-07-13T09:02:37.932Z	[33mWARN[0m	sectors	storage-sealing/fsm.go:511	sector 2 got error event sealing.SectorSealPreCommit1Failed: seal pre commit(1) failed: storage call error 0: failed to acquire sector {625063 2} from remote(1): sector not found
+2021-07-13T09:02:37.934Z	[34mINFO[0m	sectors	storage-sealing/states_failed.go:26	SealPreCommit1Failed(2), waiting 59.065062777s before retrying
+[5 4]
+acceptableWindows[sqi][i]: 4
+acceptableWindows[sqi][j]: 5
+wii: 3ec3fe47-8b19-4612-93fc-605d7d0d633f
+wji: 3ec3fe47-8b19-4612-93fc-605d7d0d633f
+run task worker id: 3ec3fe47-8b19-4612-93fc-605d7d0d633f
+2021-07-13T09:03:37.058Z	[33mWARN[0m	advmgr	sector-storage/manager_calltracker.go:149	canceling started (not running) work seal/v0/precommit/1([[{"ID":{"Miner":625063,"Number":2},"ProofType":6},"TYzsaLgE4OgsHPmsarXjBJpQHE6GQAJoktjGYY48jV8=",[{"Size":17179869184,"PieceCID":{"/":"baga6ea4seaqg2nsld34emra2ljfgrbrdcswmbjdpaftrpzjuipudt3w7qpbikpa"}}]]])
+2021-07-13T09:03:37.061Z	[33mWARN[0m	sectors	storage-sealing/fsm.go:511	sector 2 got error event sealing.SectorSealPreCommit1Failed: seal pre commit(1) failed: storage call error 0: failed to acquire sector {625063 2} from remote(1): sector not found
+2021-07-13T09:03:37.064Z	[34mINFO[0m	sectors	storage-sealing/states_failed.go:26	SealPreCommit1Failed(2), waiting 59.935428627s before retrying
+[4 5]
+acceptableWindows[sqi][i]: 5
+acceptableWindows[sqi][j]: 4
+wii: 3ec3fe47-8b19-4612-93fc-605d7d0d633f
+wji: 3ec3fe47-8b19-4612-93fc-605d7d0d633f
+run task worker id: 3ec3fe47-8b19-4612-93fc-605d7d0d633f
+2021-07-13T09:04:37.060Z	[33mWARN[0m	advmgr	sector-storage/manager_calltracker.go:149	canceling started (not running) work seal/v0/precommit/1([[{"ID":{"Miner":625063,"Number":2},"ProofType":6},"TYzsaLgE4OgsHPmsarXjBJpQHE6GQAJoktjGYY48jV8=",[{"Size":17179869184,"PieceCID":{"/":"baga6ea4seaqg2nsld34emra2ljfgrbrdcswmbjdpaftrpzjuipudt3w7qpbikpa"}}]]])
+2021-07-13T09:04:37.063Z	[33mWARN[0m	sectors	storage-sealing/fsm.go:511	sector 2 got error event sealing.SectorSealPreCommit1Failed: seal pre commit(1) failed: storage call error 0: failed to acquire sector {625063 2} from remote(1): sector not found
+2021-07-13T09:04:37.065Z	[34mINFO[0m	sectors	storage-sealing/states_failed.go:26	SealPreCommit1Failed(2), waiting 59.934206022s before retrying
+2021-07-13T09:05:27.368Z	[33mWARN[0m	advmgr	sector-storage/sched_worker.go:215	failed to check worker session	{"error": "RPC client error: sendRequest failed: Post \"http://192.168.18.66:3456/rpc/v0\": dial tcp 192.168.18.66:3456: connect: connection refused"}
+[3 2]
+acceptableWindows[sqi][i]: 2
+acceptableWindows[sqi][j]: 3
+wii: 3ec3fe47-8b19-4612-93fc-605d7d0d633f
+wji: 3ec3fe47-8b19-4612-93fc-605d7d0d633f
+run task worker id: 3ec3fe47-8b19-4612-93fc-605d7d0d633f
+2021-07-13T09:05:37.045Z	[33mWARN[0m	advmgr	sector-storage/manager_calltracker.go:149	canceling started (not running) work seal/v0/precommit/1([[{"ID":{"Miner":625063,"Number":2},"ProofType":6},"TYzsaLgE4OgsHPmsarXjBJpQHE6GQAJoktjGYY48jV8=",[{"Size":17179869184,"PieceCID":{"/":"baga6ea4seaqg2nsld34emra2ljfgrbrdcswmbjdpaftrpzjuipudt3w7qpbikpa"}}]]])
+2021-07-13T09:05:37.048Z	[33mWARN[0m	sectors	storage-sealing/fsm.go:511	sector 2 got error event sealing.SectorSealPreCommit1Failed: seal pre commit(1) failed: storage call error 0: failed to acquire sector {625063 2} from remote(1): sector not found
+2021-07-13T09:05:37.050Z	[34mINFO[0m	sectors	storage-sealing/states_failed.go:26	SealPreCommit1Failed(2), waiting 59.949344648s before retrying
+2021-07-13T09:05:37.368Z	[33mWARN[0m	advmgr	sector-storage/sched_worker.go:215	failed to check worker session	{"error": "RPC client error: sendRequest failed: Post \"http://192.168.18.66:3456/rpc/v0\": dial tcp 192.168.18.66:3456: connect: connection refused"}
+2021-07-13T09:05:47.368Z	[33mWARN[0m	advmgr	sector-storage/sched_worker.go:215	failed to check worker session	{"error": "RPC client error: sendRequest failed: Post \"http://192.168.18.66:3456/rpc/v0\": dial tcp 192.168.18.66:3456: connect: connection refused"}
+2021-07-13T09:05:57.368Z	[33mWARN[0m	advmgr	sector-storage/sched_worker.go:215	failed to check worker session	{"error": "RPC client error: sendRequest failed: Post \"http://192.168.18.66:3456/rpc/v0\": dial tcp 192.168.18.66:3456: connect: connection refused"}
+2021-07-13T09:06:07.368Z	[33mWARN[0m	advmgr	sector-storage/sched_worker.go:215	failed to check worker session	{"error": "RPC client error: sendRequest failed: Post \"http://192.168.18.66:3456/rpc/v0\": dial tcp 192.168.18.66:3456: connect: connection refused"}
+2021-07-13T09:06:17.368Z	[33mWARN[0m	advmgr	sector-storage/sched_worker.go:215	failed to check worker session	{"error": "RPC client error: sendRequest failed: Post \"http://192.168.18.66:3456/rpc/v0\": dial tcp 192.168.18.66:3456: connect: connection refused"}
+2021-07-13T09:06:27.368Z	[33mWARN[0m	advmgr	sector-storage/sched_worker.go:215	failed to check worker session	{"error": "RPC client error: sendRequest failed: Post \"http://192.168.18.66:3456/rpc/v0\": dial tcp 192.168.18.66:3456: connect: connection refused"}
+[2 3]
+acceptableWindows[sqi][i]: 3
+acceptableWindows[sqi][j]: 2
+wii: 3ec3fe47-8b19-4612-93fc-605d7d0d633f
+wji: 3ec3fe47-8b19-4612-93fc-605d7d0d633f
+run task worker id: 3ec3fe47-8b19-4612-93fc-605d7d0d633f
+2021-07-13T09:06:37.053Z	[33mWARN[0m	advmgr	sector-storage/manager_calltracker.go:149	canceling started (not running) work seal/v0/precommit/1([[{"ID":{"Miner":625063,"Number":2},"ProofType":6},"TYzsaLgE4OgsHPmsarXjBJpQHE6GQAJoktjGYY48jV8=",[{"Size":17179869184,"PieceCID":{"/":"baga6ea4seaqg2nsld34emra2ljfgrbrdcswmbjdpaftrpzjuipudt3w7qpbikpa"}}]]])
+2021-07-13T09:06:37.056Z	[33mWARN[0m	sectors	storage-sealing/fsm.go:511	sector 2 got error event sealing.SectorSealPreCommit1Failed: seal pre commit(1) failed: storage call error 0: failed to acquire sector {625063 2} from remote(1): sector not found
+2021-07-13T09:06:37.060Z	[34mINFO[0m	sectors	storage-sealing/states_failed.go:26	SealPreCommit1Failed(2), waiting 59.939532963s before retrying
+2021-07-13T09:06:37.368Z	[33mWARN[0m	advmgr	sector-storage/sched_worker.go:215	failed to check worker session	{"error": "RPC client error: sendRequest failed: Post \"http://192.168.18.66:3456/rpc/v0\": dial tcp 192.168.18.66:3456: connect: connection refused"}
+2021-07-13T09:06:47.368Z	[33mWARN[0m	advmgr	sector-storage/sched_worker.go:215	failed to check worker session	{"error": "RPC client error: sendRequest failed: Post \"http://192.168.18.66:3456/rpc/v0\": dial tcp 192.168.18.66:3456: connect: connection refused"}
+2021-07-13T09:06:57.368Z	[33mWARN[0m	advmgr	sector-storage/sched_worker.go:215	failed to check worker session	{"error": "RPC client error: sendRequest failed: Post \"http://192.168.18.66:3456/rpc/v0\": dial tcp 192.168.18.66:3456: connect: connection refused"}
+2021-07-13T09:07:07.368Z	[33mWARN[0m	advmgr	sector-storage/sched_worker.go:215	failed to check worker session	{"error": "RPC client error: sendRequest failed: Post \"http://192.168.18.66:3456/rpc/v0\": dial tcp 192.168.18.66:3456: connect: connection refused"}
+2021-07-13T09:07:17.368Z	[33mWARN[0m	advmgr	sector-storage/sched_worker.go:215	failed to check worker session	{"error": "RPC client error: sendRequest failed: Post \"http://192.168.18.66:3456/rpc/v0\": dial tcp 192.168.18.66:3456: connect: connection refused"}
+2021-07-13T09:07:23.645Z	[34mINFO[0m	stores	stores/index.go:138	New sector storage: dd66d16e-be29-4330-a903-5b43dbdcdcd9
+2021-07-13T09:07:23.646Z	[33mWARN[0m	stores	stores/index.go:204	sector {623959 1} redeclared in dd66d16e-be29-4330-a903-5b43dbdcdcd9
+2021-07-13T09:07:23.646Z	[33mWARN[0m	stores	stores/index.go:204	sector {625063 3} redeclared in dd66d16e-be29-4330-a903-5b43dbdcdcd9
+2021-07-13T09:07:23.647Z	[33mWARN[0m	stores	stores/index.go:204	sector {625063 3} redeclared in dd66d16e-be29-4330-a903-5b43dbdcdcd9
+2021-07-13T09:07:23.648Z	[33mWARN[0m	stores	stores/index.go:204	sector {625063 3} redeclared in dd66d16e-be29-4330-a903-5b43dbdcdcd9
+2021-07-13T09:07:23.664Z	[34mINFO[0m	node	impl/storminer.go:305	Connected to a remote worker at http://192.168.18.58:3456/rpc/v0
+2021-07-13T09:07:23.685Z	[33mWARN[0m	sectors	storage-sealing/fsm.go:511	sector 3 got error event sealing.SectorSealPreCommit1Failed: seal pre commit(1) failed: storage call error 101: worker restarted
+2021-07-13T09:07:23.687Z	[34mINFO[0m	sectors	storage-sealing/states_failed.go:26	SealPreCommit1Failed(3), waiting 59.312918797s before retrying
+2021-07-13T09:07:27.368Z	[33mWARN[0m	advmgr	sector-storage/sched_worker.go:215	failed to check worker session	{"error": "RPC client error: sendRequest failed: Post \"http://192.168.18.66:3456/rpc/v0\": dial tcp 192.168.18.66:3456: connect: connection refused"}
+2021-07-13T09:07:31.962Z	[34mINFO[0m	stores	stores/index.go:138	New sector storage: b953878e-bafa-4a66-b91d-958a6ef1d8e8
+2021-07-13T09:07:31.967Z	[34mINFO[0m	node	impl/storminer.go:305	Connected to a remote worker at http://192.168.18.66:3456/rpc/v0
+[4 5 3 2]
+acceptableWindows[sqi][i]: 5
+acceptableWindows[sqi][j]: 4
+wii: 96465e26-ac3e-47b9-acad-a0263ade2894
+wji: 96465e26-ac3e-47b9-acad-a0263ade2894
+[4 5 3 2]
+acceptableWindows[sqi][i]: 3
+acceptableWindows[sqi][j]: 5
+wii: 3ec3fe47-8b19-4612-93fc-605d7d0d633f
+wji: 96465e26-ac3e-47b9-acad-a0263ade2894
+[4 3 5 2]
+acceptableWindows[sqi][i]: 3
+acceptableWindows[sqi][j]: 4
+wii: 3ec3fe47-8b19-4612-93fc-605d7d0d633f
+wji: 96465e26-ac3e-47b9-acad-a0263ade2894
+[3 4 5 2]
+acceptableWindows[sqi][i]: 2
+acceptableWindows[sqi][j]: 5
+wii: 3ec3fe47-8b19-4612-93fc-605d7d0d633f
+wji: 96465e26-ac3e-47b9-acad-a0263ade2894
+[3 4 2 5]
+acceptableWindows[sqi][i]: 2
+acceptableWindows[sqi][j]: 4
+wii: 3ec3fe47-8b19-4612-93fc-605d7d0d633f
+wji: 96465e26-ac3e-47b9-acad-a0263ade2894
+[3 2 4 5]
+acceptableWindows[sqi][i]: 2
+acceptableWindows[sqi][j]: 3
+wii: 3ec3fe47-8b19-4612-93fc-605d7d0d633f
+wji: 3ec3fe47-8b19-4612-93fc-605d7d0d633f
+run task worker id: 3ec3fe47-8b19-4612-93fc-605d7d0d633f
+2021-07-13T09:07:37.042Z	[33mWARN[0m	advmgr	sector-storage/manager_calltracker.go:149	canceling started (not running) work seal/v0/precommit/1([[{"ID":{"Miner":625063,"Number":2},"ProofType":6},"TYzsaLgE4OgsHPmsarXjBJpQHE6GQAJoktjGYY48jV8=",[{"Size":17179869184,"PieceCID":{"/":"baga6ea4seaqg2nsld34emra2ljfgrbrdcswmbjdpaftrpzjuipudt3w7qpbikpa"}}]]])
+2021-07-13T09:07:37.045Z	[33mWARN[0m	sectors	storage-sealing/fsm.go:511	sector 2 got error event sealing.SectorSealPreCommit1Failed: seal pre commit(1) failed: storage call error 0: failed to acquire sector {625063 2} from remote(1): sector not found
+2021-07-13T09:07:37.048Z	[34mINFO[0m	sectors	storage-sealing/states_failed.go:26	SealPreCommit1Failed(2), waiting 59.951960125s before retrying
+2021-07-13T09:07:37.369Z	[33mWARN[0m	advmgr	sector-storage/sched_worker.go:244	worker session changed (worker restarted?)	{"initial": "28af54fb-9f8e-446f-8279-bc566fa1be2c", "current": "b843cfeb-ddef-471f-af4f-6c41c48ce4ac"}
+2021-07-13T09:07:37.369Z	[33mWARN[0m	advmgr	sector-storage/sched_worker.go:96	Worker closing	{"workerid": "28af54fb-9f8e-446f-8279-bc566fa1be2c"}
+[6 7 2 5 4 3]
+acceptableWindows[sqi][i]: 7
+acceptableWindows[sqi][j]: 6
+wii: 3ec3fe47-8b19-4612-93fc-605d7d0d633f
+wji: b843cfeb-ddef-471f-af4f-6c41c48ce4ac
+[7 6 2 5 4 3]
+acceptableWindows[sqi][i]: 2
+acceptableWindows[sqi][j]: 6
+wii: 3ec3fe47-8b19-4612-93fc-605d7d0d633f
+wji: b843cfeb-ddef-471f-af4f-6c41c48ce4ac
+[7 2 6 5 4 3]
+acceptableWindows[sqi][i]: 2
+acceptableWindows[sqi][j]: 7
+wii: 3ec3fe47-8b19-4612-93fc-605d7d0d633f
+wji: 3ec3fe47-8b19-4612-93fc-605d7d0d633f
+[2 7 6 5 4 3]
+acceptableWindows[sqi][i]: 5
+acceptableWindows[sqi][j]: 6
+wii: b843cfeb-ddef-471f-af4f-6c41c48ce4ac
+wji: b843cfeb-ddef-471f-af4f-6c41c48ce4ac
+[2 7 5 6 4 3]
+acceptableWindows[sqi][i]: 5
+acceptableWindows[sqi][j]: 7
+wii: b843cfeb-ddef-471f-af4f-6c41c48ce4ac
+wji: 3ec3fe47-8b19-4612-93fc-605d7d0d633f
+[2 7 5 6 4 3]
+acceptableWindows[sqi][i]: 4
+acceptableWindows[sqi][j]: 6
+wii: 96465e26-ac3e-47b9-acad-a0263ade2894
+wji: b843cfeb-ddef-471f-af4f-6c41c48ce4ac
+[2 7 5 4 6 3]
+acceptableWindows[sqi][i]: 4
+acceptableWindows[sqi][j]: 5
+wii: 96465e26-ac3e-47b9-acad-a0263ade2894
+wji: b843cfeb-ddef-471f-af4f-6c41c48ce4ac
+[2 7 4 5 6 3]
+acceptableWindows[sqi][i]: 4
+acceptableWindows[sqi][j]: 7
+wii: 96465e26-ac3e-47b9-acad-a0263ade2894
+wji: 3ec3fe47-8b19-4612-93fc-605d7d0d633f
+[2 7 4 5 6 3]
+acceptableWindows[sqi][i]: 3
+acceptableWindows[sqi][j]: 6
+wii: 96465e26-ac3e-47b9-acad-a0263ade2894
+wji: b843cfeb-ddef-471f-af4f-6c41c48ce4ac
+[2 7 4 5 3 6]
+acceptableWindows[sqi][i]: 3
+acceptableWindows[sqi][j]: 5
+wii: 96465e26-ac3e-47b9-acad-a0263ade2894
+wji: b843cfeb-ddef-471f-af4f-6c41c48ce4ac
+[2 7 4 3 5 6]
+acceptableWindows[sqi][i]: 3
+acceptableWindows[sqi][j]: 4
+wii: 96465e26-ac3e-47b9-acad-a0263ade2894
+wji: 96465e26-ac3e-47b9-acad-a0263ade2894
+[2 7 3 4 5 6]
+acceptableWindows[sqi][i]: 3
+acceptableWindows[sqi][j]: 7
+wii: 96465e26-ac3e-47b9-acad-a0263ade2894
+wji: 3ec3fe47-8b19-4612-93fc-605d7d0d633f
+run task worker id: 3ec3fe47-8b19-4612-93fc-605d7d0d633f
+[2 4 3 6 5 7]
+acceptableWindows[sqi][i]: 4
+acceptableWindows[sqi][j]: 2
+wii: b843cfeb-ddef-471f-af4f-6c41c48ce4ac
+wji: 96465e26-ac3e-47b9-acad-a0263ade2894
+[2 4 3 6 5 7]
+acceptableWindows[sqi][i]: 3
+acceptableWindows[sqi][j]: 4
+wii: 96465e26-ac3e-47b9-acad-a0263ade2894
+wji: b843cfeb-ddef-471f-af4f-6c41c48ce4ac
+[2 3 4 6 5 7]
+acceptableWindows[sqi][i]: 3
+acceptableWindows[sqi][j]: 2
+wii: 96465e26-ac3e-47b9-acad-a0263ade2894
+wji: 96465e26-ac3e-47b9-acad-a0263ade2894
+[2 3 4 6 5 7]
+acceptableWindows[sqi][i]: 6
+acceptableWindows[sqi][j]: 4
+wii: 3ec3fe47-8b19-4612-93fc-605d7d0d633f
+wji: b843cfeb-ddef-471f-af4f-6c41c48ce4ac
+[2 3 4 6 5 7]
+acceptableWindows[sqi][i]: 5
+acceptableWindows[sqi][j]: 6
+wii: b843cfeb-ddef-471f-af4f-6c41c48ce4ac
+wji: 3ec3fe47-8b19-4612-93fc-605d7d0d633f
+[2 3 4 5 6 7]
+acceptableWindows[sqi][i]: 5
+acceptableWindows[sqi][j]: 4
+wii: b843cfeb-ddef-471f-af4f-6c41c48ce4ac
+wji: b843cfeb-ddef-471f-af4f-6c41c48ce4ac
+[2 3 4 5 6 7]
+acceptableWindows[sqi][i]: 7
+acceptableWindows[sqi][j]: 6
+wii: 3ec3fe47-8b19-4612-93fc-605d7d0d633f
+wji: 3ec3fe47-8b19-4612-93fc-605d7d0d633f
+run task worker id: 96465e26-ac3e-47b9-acad-a0263ade2894
+2021-07-13T09:08:37.111Z	[33mWARN[0m	advmgr	sector-storage/manager_calltracker.go:149	canceling started (not running) work seal/v0/precommit/1([[{"ID":{"Miner":625063,"Number":2},"ProofType":6},"TYzsaLgE4OgsHPmsarXjBJpQHE6GQAJoktjGYY48jV8=",[{"Size":17179869184,"PieceCID":{"/":"baga6ea4seaqg2nsld34emra2ljfgrbrdcswmbjdpaftrpzjuipudt3w7qpbikpa"}}]]])
+2021-07-13T09:08:37.113Z	[33mWARN[0m	sectors	storage-sealing/fsm.go:511	sector 2 got error event sealing.SectorSealPreCommit1Failed: seal pre commit(1) failed: storage call error 0: failed to acquire sector {625063 2} from remote(1): sector not found
+2021-07-13T09:08:37.116Z	[34mINFO[0m	sectors	storage-sealing/states_failed.go:26	SealPreCommit1Failed(2), waiting 59.883609595s before retrying
+[7 6 2 3 5 4]
+acceptableWindows[sqi][i]: 6
+acceptableWindows[sqi][j]: 7
+wii: 3ec3fe47-8b19-4612-93fc-605d7d0d633f
+wji: 96465e26-ac3e-47b9-acad-a0263ade2894
+[7 6 2 3 5 4]
+acceptableWindows[sqi][i]: 2
+acceptableWindows[sqi][j]: 6
+wii: 96465e26-ac3e-47b9-acad-a0263ade2894
+wji: 3ec3fe47-8b19-4612-93fc-605d7d0d633f
+[7 2 6 3 5 4]
+acceptableWindows[sqi][i]: 2
+acceptableWindows[sqi][j]: 7
+wii: 96465e26-ac3e-47b9-acad-a0263ade2894
+wji: 96465e26-ac3e-47b9-acad-a0263ade2894
+[2 7 6 3 5 4]
+acceptableWindows[sqi][i]: 3
+acceptableWindows[sqi][j]: 6
+wii: b843cfeb-ddef-471f-af4f-6c41c48ce4ac
+wji: 3ec3fe47-8b19-4612-93fc-605d7d0d633f
+[2 7 3 6 5 4]
+acceptableWindows[sqi][i]: 3
+acceptableWindows[sqi][j]: 7
+wii: b843cfeb-ddef-471f-af4f-6c41c48ce4ac
+wji: 96465e26-ac3e-47b9-acad-a0263ade2894
+[2 7 3 6 5 4]
+acceptableWindows[sqi][i]: 5
+acceptableWindows[sqi][j]: 6
+wii: 3ec3fe47-8b19-4612-93fc-605d7d0d633f
+wji: 3ec3fe47-8b19-4612-93fc-605d7d0d633f
+[2 7 3 5 6 4]
+acceptableWindows[sqi][i]: 5
+acceptableWindows[sqi][j]: 3
+wii: 3ec3fe47-8b19-4612-93fc-605d7d0d633f
+wji: b843cfeb-ddef-471f-af4f-6c41c48ce4ac
+[2 7 3 5 6 4]
+acceptableWindows[sqi][i]: 4
+acceptableWindows[sqi][j]: 6
+wii: b843cfeb-ddef-471f-af4f-6c41c48ce4ac
+wji: 3ec3fe47-8b19-4612-93fc-605d7d0d633f
+[2 7 3 5 4 6]
+acceptableWindows[sqi][i]: 4
+acceptableWindows[sqi][j]: 5
+wii: b843cfeb-ddef-471f-af4f-6c41c48ce4ac
+wji: 3ec3fe47-8b19-4612-93fc-605d7d0d633f
+[2 7 3 4 5 6]
+acceptableWindows[sqi][i]: 4
+acceptableWindows[sqi][j]: 3
+wii: b843cfeb-ddef-471f-af4f-6c41c48ce4ac
+wji: b843cfeb-ddef-471f-af4f-6c41c48ce4ac
+run task worker id: 96465e26-ac3e-47b9-acad-a0263ade2894
+2021-07-13T09:09:37.100Z	[33mWARN[0m	advmgr	sector-storage/manager_calltracker.go:149	canceling started (not running) work seal/v0/precommit/1([[{"ID":{"Miner":625063,"Number":2},"ProofType":6},"TYzsaLgE4OgsHPmsarXjBJpQHE6GQAJoktjGYY48jV8=",[{"Size":17179869184,"PieceCID":{"/":"baga6ea4seaqg2nsld34emra2ljfgrbrdcswmbjdpaftrpzjuipudt3w7qpbikpa"}}]]])
+2021-07-13T09:09:37.103Z	[33mWARN[0m	sectors	storage-sealing/fsm.go:511	sector 2 got error event sealing.SectorSealPreCommit1Failed: seal pre commit(1) failed: storage call error 0: failed to acquire sector {625063 2} from remote(1): sector not found
+2021-07-13T09:09:37.107Z	[34mINFO[0m	sectors	storage-sealing/states_failed.go:26	SealPreCommit1Failed(2), waiting 59.89287721s before retrying
+[5 4 3 6 2 7]
+acceptableWindows[sqi][i]: 4
+acceptableWindows[sqi][j]: 5
+wii: 3ec3fe47-8b19-4612-93fc-605d7d0d633f
+wji: 3ec3fe47-8b19-4612-93fc-605d7d0d633f
+[4 5 3 6 2 7]
+acceptableWindows[sqi][i]: 3
+acceptableWindows[sqi][j]: 5
+wii: b843cfeb-ddef-471f-af4f-6c41c48ce4ac
+wji: 3ec3fe47-8b19-4612-93fc-605d7d0d633f
+[4 3 5 6 2 7]
+acceptableWindows[sqi][i]: 3
+acceptableWindows[sqi][j]: 4
+wii: b843cfeb-ddef-471f-af4f-6c41c48ce4ac
+wji: 3ec3fe47-8b19-4612-93fc-605d7d0d633f
+[3 4 5 6 2 7]
+acceptableWindows[sqi][i]: 6
+acceptableWindows[sqi][j]: 5
+wii: 96465e26-ac3e-47b9-acad-a0263ade2894
+wji: 3ec3fe47-8b19-4612-93fc-605d7d0d633f
+[3 4 6 5 2 7]
+acceptableWindows[sqi][i]: 6
+acceptableWindows[sqi][j]: 4
+wii: 96465e26-ac3e-47b9-acad-a0263ade2894
+wji: 3ec3fe47-8b19-4612-93fc-605d7d0d633f
+[3 6 4 5 2 7]
+acceptableWindows[sqi][i]: 6
+acceptableWindows[sqi][j]: 3
+wii: 96465e26-ac3e-47b9-acad-a0263ade2894
+wji: b843cfeb-ddef-471f-af4f-6c41c48ce4ac
+[6 3 4 5 2 7]
+acceptableWindows[sqi][i]: 2
+acceptableWindows[sqi][j]: 5
+wii: b843cfeb-ddef-471f-af4f-6c41c48ce4ac
+wji: 3ec3fe47-8b19-4612-93fc-605d7d0d633f
+[6 3 4 2 5 7]
+acceptableWindows[sqi][i]: 2
+acceptableWindows[sqi][j]: 4
+wii: b843cfeb-ddef-471f-af4f-6c41c48ce4ac
+wji: 3ec3fe47-8b19-4612-93fc-605d7d0d633f
+[6 3 2 4 5 7]
+acceptableWindows[sqi][i]: 2
+acceptableWindows[sqi][j]: 3
+wii: b843cfeb-ddef-471f-af4f-6c41c48ce4ac
+wji: b843cfeb-ddef-471f-af4f-6c41c48ce4ac
+[6 2 3 4 5 7]
+acceptableWindows[sqi][i]: 2
+acceptableWindows[sqi][j]: 6
+wii: b843cfeb-ddef-471f-af4f-6c41c48ce4ac
+wji: 96465e26-ac3e-47b9-acad-a0263ade2894
+[6 2 3 4 5 7]
+acceptableWindows[sqi][i]: 7
+acceptableWindows[sqi][j]: 5
+wii: 96465e26-ac3e-47b9-acad-a0263ade2894
+wji: 3ec3fe47-8b19-4612-93fc-605d7d0d633f
+[6 2 3 4 7 5]
+acceptableWindows[sqi][i]: 7
+acceptableWindows[sqi][j]: 4
+wii: 96465e26-ac3e-47b9-acad-a0263ade2894
+wji: 3ec3fe47-8b19-4612-93fc-605d7d0d633f
+[6 2 3 7 4 5]
+acceptableWindows[sqi][i]: 7
+acceptableWindows[sqi][j]: 3
+wii: 96465e26-ac3e-47b9-acad-a0263ade2894
+wji: b843cfeb-ddef-471f-af4f-6c41c48ce4ac
+[6 2 7 3 4 5]
+acceptableWindows[sqi][i]: 7
+acceptableWindows[sqi][j]: 2
+wii: 96465e26-ac3e-47b9-acad-a0263ade2894
+wji: b843cfeb-ddef-471f-af4f-6c41c48ce4ac
+[6 7 2 3 4 5]
+acceptableWindows[sqi][i]: 7
+acceptableWindows[sqi][j]: 6
+wii: 96465e26-ac3e-47b9-acad-a0263ade2894
+wji: 96465e26-ac3e-47b9-acad-a0263ade2894
+run task worker id: 96465e26-ac3e-47b9-acad-a0263ade2894
+2021-07-13T09:10:37.088Z	[33mWARN[0m	advmgr	sector-storage/manager_calltracker.go:149	canceling started (not running) work seal/v0/precommit/1([[{"ID":{"Miner":625063,"Number":2},"ProofType":6},"TYzsaLgE4OgsHPmsarXjBJpQHE6GQAJoktjGYY48jV8=",[{"Size":17179869184,"PieceCID":{"/":"baga6ea4seaqg2nsld34emra2ljfgrbrdcswmbjdpaftrpzjuipudt3w7qpbikpa"}}]]])
+2021-07-13T09:10:37.091Z	[33mWARN[0m	sectors	storage-sealing/fsm.go:511	sector 2 got error event sealing.SectorSealPreCommit1Failed: seal pre commit(1) failed: storage call error 0: failed to acquire sector {625063 2} from remote(1): sector not found
+2021-07-13T09:10:37.093Z	[34mINFO[0m	sectors	storage-sealing/states_failed.go:26	SealPreCommit1Failed(2), waiting 59.906150686s before retrying
+[2 4 7 5 6 3]
+acceptableWindows[sqi][i]: 4
+acceptableWindows[sqi][j]: 2
+wii: 3ec3fe47-8b19-4612-93fc-605d7d0d633f
+wji: b843cfeb-ddef-471f-af4f-6c41c48ce4ac
+[2 4 7 5 6 3]
+acceptableWindows[sqi][i]: 7
+acceptableWindows[sqi][j]: 4
+wii: 96465e26-ac3e-47b9-acad-a0263ade2894
+wji: 3ec3fe47-8b19-4612-93fc-605d7d0d633f
+[2 7 4 5 6 3]
+acceptableWindows[sqi][i]: 7
+acceptableWindows[sqi][j]: 2
+wii: 96465e26-ac3e-47b9-acad-a0263ade2894
+wji: b843cfeb-ddef-471f-af4f-6c41c48ce4ac
+[7 2 4 5 6 3]
+acceptableWindows[sqi][i]: 5
+acceptableWindows[sqi][j]: 4
+wii: 3ec3fe47-8b19-4612-93fc-605d7d0d633f
+wji: 3ec3fe47-8b19-4612-93fc-605d7d0d633f
+[7 2 4 5 6 3]
+acceptableWindows[sqi][i]: 6
+acceptableWindows[sqi][j]: 5
+wii: 96465e26-ac3e-47b9-acad-a0263ade2894
+wji: 3ec3fe47-8b19-4612-93fc-605d7d0d633f
+[7 2 4 6 5 3]
+acceptableWindows[sqi][i]: 6
+acceptableWindows[sqi][j]: 4
+wii: 96465e26-ac3e-47b9-acad-a0263ade2894
+wji: 3ec3fe47-8b19-4612-93fc-605d7d0d633f
+[7 2 6 4 5 3]
+acceptableWindows[sqi][i]: 6
+acceptableWindows[sqi][j]: 2
+wii: 96465e26-ac3e-47b9-acad-a0263ade2894
+wji: b843cfeb-ddef-471f-af4f-6c41c48ce4ac
+[7 6 2 4 5 3]
+acceptableWindows[sqi][i]: 6
+acceptableWindows[sqi][j]: 7
+wii: 96465e26-ac3e-47b9-acad-a0263ade2894
+wji: 96465e26-ac3e-47b9-acad-a0263ade2894
+[6 7 2 4 5 3]
+acceptableWindows[sqi][i]: 3
+acceptableWindows[sqi][j]: 5
+wii: b843cfeb-ddef-471f-af4f-6c41c48ce4ac
+wji: 3ec3fe47-8b19-4612-93fc-605d7d0d633f
+[6 7 2 4 3 5]
+acceptableWindows[sqi][i]: 3
+acceptableWindows[sqi][j]: 4
+wii: b843cfeb-ddef-471f-af4f-6c41c48ce4ac
+wji: 3ec3fe47-8b19-4612-93fc-605d7d0d633f
+[6 7 2 3 4 5]
+acceptableWindows[sqi][i]: 3
+acceptableWindows[sqi][j]: 2
+wii: b843cfeb-ddef-471f-af4f-6c41c48ce4ac
+wji: b843cfeb-ddef-471f-af4f-6c41c48ce4ac
+run task worker id: 96465e26-ac3e-47b9-acad-a0263ade2894
+2021-07-13T09:11:37.099Z	[33mWARN[0m	advmgr	sector-storage/manager_calltracker.go:149	canceling started (not running) work seal/v0/precommit/1([[{"ID":{"Miner":625063,"Number":2},"ProofType":6},"TYzsaLgE4OgsHPmsarXjBJpQHE6GQAJoktjGYY48jV8=",[{"Size":17179869184,"PieceCID":{"/":"baga6ea4seaqg2nsld34emra2ljfgrbrdcswmbjdpaftrpzjuipudt3w7qpbikpa"}}]]])
+2021-07-13T09:11:37.102Z	[33mWARN[0m	sectors	storage-sealing/fsm.go:511	sector 2 got error event sealing.SectorSealPreCommit1Failed: seal pre commit(1) failed: storage call error 0: failed to acquire sector {625063 2} from remote(1): sector not found
+2021-07-13T09:11:37.105Z	[34mINFO[0m	sectors	storage-sealing/states_failed.go:26	SealPreCommit1Failed(2), waiting 59.894967126s before retrying
+[6 3 4 7 2 5]
+acceptableWindows[sqi][i]: 3
+acceptableWindows[sqi][j]: 6
+wii: b843cfeb-ddef-471f-af4f-6c41c48ce4ac
+wji: 96465e26-ac3e-47b9-acad-a0263ade2894
+[6 3 4 7 2 5]
+acceptableWindows[sqi][i]: 4
+acceptableWindows[sqi][j]: 3
+wii: 3ec3fe47-8b19-4612-93fc-605d7d0d633f
+wji: b843cfeb-ddef-471f-af4f-6c41c48ce4ac
+[6 3 4 7 2 5]
+acceptableWindows[sqi][i]: 7
+acceptableWindows[sqi][j]: 4
+wii: 96465e26-ac3e-47b9-acad-a0263ade2894
+wji: 3ec3fe47-8b19-4612-93fc-605d7d0d633f
+[6 3 7 4 2 5]
+acceptableWindows[sqi][i]: 7
+acceptableWindows[sqi][j]: 3
+wii: 96465e26-ac3e-47b9-acad-a0263ade2894
+wji: b843cfeb-ddef-471f-af4f-6c41c48ce4ac
+[6 7 3 4 2 5]
+acceptableWindows[sqi][i]: 7
+acceptableWindows[sqi][j]: 6
+wii: 96465e26-ac3e-47b9-acad-a0263ade2894
+wji: 96465e26-ac3e-47b9-acad-a0263ade2894
+[6 7 3 4 2 5]
+acceptableWindows[sqi][i]: 2
+acceptableWindows[sqi][j]: 4
+wii: b843cfeb-ddef-471f-af4f-6c41c48ce4ac
+wji: 3ec3fe47-8b19-4612-93fc-605d7d0d633f
+[6 7 3 2 4 5]
+acceptableWindows[sqi][i]: 2
+acceptableWindows[sqi][j]: 3
+wii: b843cfeb-ddef-471f-af4f-6c41c48ce4ac
+wji: b843cfeb-ddef-471f-af4f-6c41c48ce4ac
+[6 7 2 3 4 5]
+acceptableWindows[sqi][i]: 2
+acceptableWindows[sqi][j]: 7
+wii: b843cfeb-ddef-471f-af4f-6c41c48ce4ac
+wji: 96465e26-ac3e-47b9-acad-a0263ade2894
+[6 7 2 3 4 5]
+acceptableWindows[sqi][i]: 5
+acceptableWindows[sqi][j]: 4
+wii: 3ec3fe47-8b19-4612-93fc-605d7d0d633f
+wji: 3ec3fe47-8b19-4612-93fc-605d7d0d633f
+run task worker id: 96465e26-ac3e-47b9-acad-a0263ade2894
+2021-07-13T09:12:37.099Z	[33mWARN[0m	advmgr	sector-storage/manager_calltracker.go:149	canceling started (not running) work seal/v0/precommit/1([[{"ID":{"Miner":625063,"Number":2},"ProofType":6},"TYzsaLgE4OgsHPmsarXjBJpQHE6GQAJoktjGYY48jV8=",[{"Size":17179869184,"PieceCID":{"/":"baga6ea4seaqg2nsld34emra2ljfgrbrdcswmbjdpaftrpzjuipudt3w7qpbikpa"}}]]])
+2021-07-13T09:12:37.102Z	[33mWARN[0m	sectors	storage-sealing/fsm.go:511	sector 2 got error event sealing.SectorSealPreCommit1Failed: seal pre commit(1) failed: storage call error 0: failed to acquire sector {625063 2} from remote(1): sector not found
+2021-07-13T09:12:37.105Z	[34mINFO[0m	sectors	storage-sealing/states_failed.go:26	SealPreCommit1Failed(2), waiting 59.894815242s before retrying
+[6 2 5 4 7 3]
+acceptableWindows[sqi][i]: 2
+acceptableWindows[sqi][j]: 6
+wii: b843cfeb-ddef-471f-af4f-6c41c48ce4ac
+wji: 96465e26-ac3e-47b9-acad-a0263ade2894
+[6 2 5 4 7 3]
+acceptableWindows[sqi][i]: 5
+acceptableWindows[sqi][j]: 2
+wii: 3ec3fe47-8b19-4612-93fc-605d7d0d633f
+wji: b843cfeb-ddef-471f-af4f-6c41c48ce4ac
+[6 2 5 4 7 3]
+acceptableWindows[sqi][i]: 4
+acceptableWindows[sqi][j]: 5
+wii: 3ec3fe47-8b19-4612-93fc-605d7d0d633f
+wji: 3ec3fe47-8b19-4612-93fc-605d7d0d633f
+[6 2 4 5 7 3]
+acceptableWindows[sqi][i]: 4
+acceptableWindows[sqi][j]: 2
+wii: 3ec3fe47-8b19-4612-93fc-605d7d0d633f
+wji: b843cfeb-ddef-471f-af4f-6c41c48ce4ac
+[6 2 4 5 7 3]
+acceptableWindows[sqi][i]: 7
+acceptableWindows[sqi][j]: 5
+wii: 96465e26-ac3e-47b9-acad-a0263ade2894
+wji: 3ec3fe47-8b19-4612-93fc-605d7d0d633f
+[6 2 4 7 5 3]
+acceptableWindows[sqi][i]: 7
+acceptableWindows[sqi][j]: 4
+wii: 96465e26-ac3e-47b9-acad-a0263ade2894
+wji: 3ec3fe47-8b19-4612-93fc-605d7d0d633f
+[6 2 7 4 5 3]
+acceptableWindows[sqi][i]: 7
+acceptableWindows[sqi][j]: 2
+wii: 96465e26-ac3e-47b9-acad-a0263ade2894
+wji: b843cfeb-ddef-471f-af4f-6c41c48ce4ac
+[6 7 2 4 5 3]
+acceptableWindows[sqi][i]: 7
+acceptableWindows[sqi][j]: 6
+wii: 96465e26-ac3e-47b9-acad-a0263ade2894
+wji: 96465e26-ac3e-47b9-acad-a0263ade2894
+[6 7 2 4 5 3]
+acceptableWindows[sqi][i]: 3
+acceptableWindows[sqi][j]: 5
+wii: b843cfeb-ddef-471f-af4f-6c41c48ce4ac
+wji: 3ec3fe47-8b19-4612-93fc-605d7d0d633f
+[6 7 2 4 3 5]
+acceptableWindows[sqi][i]: 3
+acceptableWindows[sqi][j]: 4
+wii: b843cfeb-ddef-471f-af4f-6c41c48ce4ac
+wji: 3ec3fe47-8b19-4612-93fc-605d7d0d633f
+[6 7 2 3 4 5]
+acceptableWindows[sqi][i]: 3
+acceptableWindows[sqi][j]: 2
+wii: b843cfeb-ddef-471f-af4f-6c41c48ce4ac
+wji: b843cfeb-ddef-471f-af4f-6c41c48ce4ac
+run task worker id: 96465e26-ac3e-47b9-acad-a0263ade2894
+2021-07-13T09:13:37.086Z	[33mWARN[0m	advmgr	sector-storage/manager_calltracker.go:149	canceling started (not running) work seal/v0/precommit/1([[{"ID":{"Miner":625063,"Number":2},"ProofType":6},"TYzsaLgE4OgsHPmsarXjBJpQHE6GQAJoktjGYY48jV8=",[{"Size":17179869184,"PieceCID":{"/":"baga6ea4seaqg2nsld34emra2ljfgrbrdcswmbjdpaftrpzjuipudt3w7qpbikpa"}}]]])
+2021-07-13T09:13:37.089Z	[33mWARN[0m	sectors	storage-sealing/fsm.go:511	sector 2 got error event sealing.SectorSealPreCommit1Failed: seal pre commit(1) failed: storage call error 0: failed to acquire sector {625063 2} from remote(1): sector not found
+2021-07-13T09:13:37.092Z	[34mINFO[0m	sectors	storage-sealing/states_failed.go:26	SealPreCommit1Failed(2), waiting 59.907406758s before retrying
+[5 7 4 3 2 6]
+acceptableWindows[sqi][i]: 7
+acceptableWindows[sqi][j]: 5
+wii: 96465e26-ac3e-47b9-acad-a0263ade2894
+wji: 3ec3fe47-8b19-4612-93fc-605d7d0d633f
+[7 5 4 3 2 6]
+acceptableWindows[sqi][i]: 4
+acceptableWindows[sqi][j]: 5
+wii: 3ec3fe47-8b19-4612-93fc-605d7d0d633f
+wji: 3ec3fe47-8b19-4612-93fc-605d7d0d633f
+[7 4 5 3 2 6]
+acceptableWindows[sqi][i]: 4
+acceptableWindows[sqi][j]: 7
+wii: 3ec3fe47-8b19-4612-93fc-605d7d0d633f
+wji: 96465e26-ac3e-47b9-acad-a0263ade2894
+[7 4 5 3 2 6]
+acceptableWindows[sqi][i]: 3
+acceptableWindows[sqi][j]: 5
+wii: b843cfeb-ddef-471f-af4f-6c41c48ce4ac
+wji: 3ec3fe47-8b19-4612-93fc-605d7d0d633f
+[7 4 3 5 2 6]
+acceptableWindows[sqi][i]: 3
+acceptableWindows[sqi][j]: 4
+wii: b843cfeb-ddef-471f-af4f-6c41c48ce4ac
+wji: 3ec3fe47-8b19-4612-93fc-605d7d0d633f
+[7 3 4 5 2 6]
+acceptableWindows[sqi][i]: 3
+acceptableWindows[sqi][j]: 7
+wii: b843cfeb-ddef-471f-af4f-6c41c48ce4ac
+wji: 96465e26-ac3e-47b9-acad-a0263ade2894
+[7 3 4 5 2 6]
+acceptableWindows[sqi][i]: 2
+acceptableWindows[sqi][j]: 5
+wii: b843cfeb-ddef-471f-af4f-6c41c48ce4ac
+wji: 3ec3fe47-8b19-4612-93fc-605d7d0d633f
+[7 3 4 2 5 6]
+acceptableWindows[sqi][i]: 2
+acceptableWindows[sqi][j]: 4
+wii: b843cfeb-ddef-471f-af4f-6c41c48ce4ac
+wji: 3ec3fe47-8b19-4612-93fc-605d7d0d633f
+[7 3 2 4 5 6]
+acceptableWindows[sqi][i]: 2
+acceptableWindows[sqi][j]: 3
+wii: b843cfeb-ddef-471f-af4f-6c41c48ce4ac
+wji: b843cfeb-ddef-471f-af4f-6c41c48ce4ac
+[7 2 3 4 5 6]
+acceptableWindows[sqi][i]: 2
+acceptableWindows[sqi][j]: 7
+wii: b843cfeb-ddef-471f-af4f-6c41c48ce4ac
+wji: 96465e26-ac3e-47b9-acad-a0263ade2894
+[7 2 3 4 5 6]
+acceptableWindows[sqi][i]: 6
+acceptableWindows[sqi][j]: 5
+wii: 96465e26-ac3e-47b9-acad-a0263ade2894
+wji: 3ec3fe47-8b19-4612-93fc-605d7d0d633f
+[7 2 3 4 6 5]
+acceptableWindows[sqi][i]: 6
+acceptableWindows[sqi][j]: 4
+wii: 96465e26-ac3e-47b9-acad-a0263ade2894
+wji: 3ec3fe47-8b19-4612-93fc-605d7d0d633f
+[7 2 3 6 4 5]
+acceptableWindows[sqi][i]: 6
+acceptableWindows[sqi][j]: 3
+wii: 96465e26-ac3e-47b9-acad-a0263ade2894
+wji: b843cfeb-ddef-471f-af4f-6c41c48ce4ac
+[7 2 6 3 4 5]
+acceptableWindows[sqi][i]: 6
+acceptableWindows[sqi][j]: 2
+wii: 96465e26-ac3e-47b9-acad-a0263ade2894
+wji: b843cfeb-ddef-471f-af4f-6c41c48ce4ac
+[7 6 2 3 4 5]
+acceptableWindows[sqi][i]: 6
+acceptableWindows[sqi][j]: 7
+wii: 96465e26-ac3e-47b9-acad-a0263ade2894
+wji: 96465e26-ac3e-47b9-acad-a0263ade2894
+run task worker id: 96465e26-ac3e-47b9-acad-a0263ade2894
+2021-07-13T09:14:37.094Z	[33mWARN[0m	advmgr	sector-storage/manager_calltracker.go:149	canceling started (not running) work seal/v0/precommit/1([[{"ID":{"Miner":625063,"Number":2},"ProofType":6},"TYzsaLgE4OgsHPmsarXjBJpQHE6GQAJoktjGYY48jV8=",[{"Size":17179869184,"PieceCID":{"/":"baga6ea4seaqg2nsld34emra2ljfgrbrdcswmbjdpaftrpzjuipudt3w7qpbikpa"}}]]])
+2021-07-13T09:14:37.097Z	[33mWARN[0m	sectors	storage-sealing/fsm.go:511	sector 2 got error event sealing.SectorSealPreCommit1Failed: seal pre commit(1) failed: storage call error 0: failed to acquire sector {625063 2} from remote(1): sector not found
+2021-07-13T09:14:37.099Z	[34mINFO[0m	sectors	storage-sealing/states_failed.go:26	SealPreCommit1Failed(2), waiting 59.900111163s before retrying
+[6 5 4 3 2 7]
+acceptableWindows[sqi][i]: 5
+acceptableWindows[sqi][j]: 6
+wii: 3ec3fe47-8b19-4612-93fc-605d7d0d633f
+wji: 96465e26-ac3e-47b9-acad-a0263ade2894
+[6 5 4 3 2 7]
+acceptableWindows[sqi][i]: 4
+acceptableWindows[sqi][j]: 5
+wii: 3ec3fe47-8b19-4612-93fc-605d7d0d633f
+wji: 3ec3fe47-8b19-4612-93fc-605d7d0d633f
+[6 4 5 3 2 7]
+acceptableWindows[sqi][i]: 4
+acceptableWindows[sqi][j]: 6
+wii: 3ec3fe47-8b19-4612-93fc-605d7d0d633f
+wji: 96465e26-ac3e-47b9-acad-a0263ade2894
+[6 4 5 3 2 7]
+acceptableWindows[sqi][i]: 3
+acceptableWindows[sqi][j]: 5
+wii: b843cfeb-ddef-471f-af4f-6c41c48ce4ac
+wji: 3ec3fe47-8b19-4612-93fc-605d7d0d633f
+[6 4 3 5 2 7]
+acceptableWindows[sqi][i]: 3
+acceptableWindows[sqi][j]: 4
+wii: b843cfeb-ddef-471f-af4f-6c41c48ce4ac
+wji: 3ec3fe47-8b19-4612-93fc-605d7d0d633f
+[6 3 4 5 2 7]
+acceptableWindows[sqi][i]: 3
+acceptableWindows[sqi][j]: 6
+wii: b843cfeb-ddef-471f-af4f-6c41c48ce4ac
+wji: 96465e26-ac3e-47b9-acad-a0263ade2894
+[6 3 4 5 2 7]
+acceptableWindows[sqi][i]: 2
+acceptableWindows[sqi][j]: 5
+wii: b843cfeb-ddef-471f-af4f-6c41c48ce4ac
+wji: 3ec3fe47-8b19-4612-93fc-605d7d0d633f
+[6 3 4 2 5 7]
+acceptableWindows[sqi][i]: 2
+acceptableWindows[sqi][j]: 4
+wii: b843cfeb-ddef-471f-af4f-6c41c48ce4ac
+wji: 3ec3fe47-8b19-4612-93fc-605d7d0d633f
+[6 3 2 4 5 7]
+acceptableWindows[sqi][i]: 2
+acceptableWindows[sqi][j]: 3
+wii: b843cfeb-ddef-471f-af4f-6c41c48ce4ac
+wji: b843cfeb-ddef-471f-af4f-6c41c48ce4ac
+[6 2 3 4 5 7]
+acceptableWindows[sqi][i]: 2
+acceptableWindows[sqi][j]: 6
+wii: b843cfeb-ddef-471f-af4f-6c41c48ce4ac
+wji: 96465e26-ac3e-47b9-acad-a0263ade2894
+[6 2 3 4 5 7]
+acceptableWindows[sqi][i]: 7
+acceptableWindows[sqi][j]: 5
+wii: 96465e26-ac3e-47b9-acad-a0263ade2894
+wji: 3ec3fe47-8b19-4612-93fc-605d7d0d633f
+[6 2 3 4 7 5]
+acceptableWindows[sqi][i]: 7
+acceptableWindows[sqi][j]: 4
+wii: 96465e26-ac3e-47b9-acad-a0263ade2894
+wji: 3ec3fe47-8b19-4612-93fc-605d7d0d633f
+[6 2 3 7 4 5]
+acceptableWindows[sqi][i]: 7
+acceptableWindows[sqi][j]: 3
+wii: 96465e26-ac3e-47b9-acad-a0263ade2894
+wji: b843cfeb-ddef-471f-af4f-6c41c48ce4ac
+[6 2 7 3 4 5]
+acceptableWindows[sqi][i]: 7
+acceptableWindows[sqi][j]: 2
+wii: 96465e26-ac3e-47b9-acad-a0263ade2894
+wji: b843cfeb-ddef-471f-af4f-6c41c48ce4ac
+[6 7 2 3 4 5]
+acceptableWindows[sqi][i]: 7
+acceptableWindows[sqi][j]: 6
+wii: 96465e26-ac3e-47b9-acad-a0263ade2894
+wji: 96465e26-ac3e-47b9-acad-a0263ade2894
+run task worker id: 96465e26-ac3e-47b9-acad-a0263ade2894
+2021-07-13T09:15:37.085Z	[33mWARN[0m	advmgr	sector-storage/manager_calltracker.go:149	canceling started (not running) work seal/v0/precommit/1([[{"ID":{"Miner":625063,"Number":2},"ProofType":6},"TYzsaLgE4OgsHPmsarXjBJpQHE6GQAJoktjGYY48jV8=",[{"Size":17179869184,"PieceCID":{"/":"baga6ea4seaqg2nsld34emra2ljfgrbrdcswmbjdpaftrpzjuipudt3w7qpbikpa"}}]]])
+2021-07-13T09:15:37.087Z	[33mWARN[0m	sectors	storage-sealing/fsm.go:511	sector 2 got error event sealing.SectorSealPreCommit1Failed: seal pre commit(1) failed: storage call error 0: failed to acquire sector {625063 2} from remote(1): sector not found
+2021-07-13T09:15:37.090Z	[34mINFO[0m	sectors	storage-sealing/states_failed.go:26	SealPreCommit1Failed(2), waiting 59.909776514s before retrying
+[7 6 5 3 4 2]
+acceptableWindows[sqi][i]: 6
+acceptableWindows[sqi][j]: 7
+wii: 96465e26-ac3e-47b9-acad-a0263ade2894
+wji: 96465e26-ac3e-47b9-acad-a0263ade2894
+[6 7 5 3 4 2]
+acceptableWindows[sqi][i]: 5
+acceptableWindows[sqi][j]: 7
+wii: 3ec3fe47-8b19-4612-93fc-605d7d0d633f
+wji: 96465e26-ac3e-47b9-acad-a0263ade2894
+[6 7 5 3 4 2]
+acceptableWindows[sqi][i]: 3
+acceptableWindows[sqi][j]: 5
+wii: b843cfeb-ddef-471f-af4f-6c41c48ce4ac
+wji: 3ec3fe47-8b19-4612-93fc-605d7d0d633f
+[6 7 3 5 4 2]
+acceptableWindows[sqi][i]: 3
+acceptableWindows[sqi][j]: 7
+wii: b843cfeb-ddef-471f-af4f-6c41c48ce4ac
+wji: 96465e26-ac3e-47b9-acad-a0263ade2894
+[6 7 3 5 4 2]
+acceptableWindows[sqi][i]: 4
+acceptableWindows[sqi][j]: 5
+wii: 3ec3fe47-8b19-4612-93fc-605d7d0d633f
+wji: 3ec3fe47-8b19-4612-93fc-605d7d0d633f
+[6 7 3 4 5 2]
+acceptableWindows[sqi][i]: 4
+acceptableWindows[sqi][j]: 3
+wii: 3ec3fe47-8b19-4612-93fc-605d7d0d633f
+wji: b843cfeb-ddef-471f-af4f-6c41c48ce4ac
+[6 7 3 4 5 2]
+acceptableWindows[sqi][i]: 2
+acceptableWindows[sqi][j]: 5
+wii: b843cfeb-ddef-471f-af4f-6c41c48ce4ac
+wji: 3ec3fe47-8b19-4612-93fc-605d7d0d633f
+[6 7 3 4 2 5]
+acceptableWindows[sqi][i]: 2
+acceptableWindows[sqi][j]: 4
+wii: b843cfeb-ddef-471f-af4f-6c41c48ce4ac
+wji: 3ec3fe47-8b19-4612-93fc-605d7d0d633f
+[6 7 3 2 4 5]
+acceptableWindows[sqi][i]: 2
+acceptableWindows[sqi][j]: 3
+wii: b843cfeb-ddef-471f-af4f-6c41c48ce4ac
+wji: b843cfeb-ddef-471f-af4f-6c41c48ce4ac
+[6 7 2 3 4 5]
+acceptableWindows[sqi][i]: 2
+acceptableWindows[sqi][j]: 7
+wii: b843cfeb-ddef-471f-af4f-6c41c48ce4ac
+wji: 96465e26-ac3e-47b9-acad-a0263ade2894
+run task worker id: 96465e26-ac3e-47b9-acad-a0263ade2894
+2021-07-13T09:16:37.096Z	[33mWARN[0m	advmgr	sector-storage/manager_calltracker.go:149	canceling started (not running) work seal/v0/precommit/1([[{"ID":{"Miner":625063,"Number":2},"ProofType":6},"TYzsaLgE4OgsHPmsarXjBJpQHE6GQAJoktjGYY48jV8=",[{"Size":17179869184,"PieceCID":{"/":"baga6ea4seaqg2nsld34emra2ljfgrbrdcswmbjdpaftrpzjuipudt3w7qpbikpa"}}]]])
+2021-07-13T09:16:37.099Z	[33mWARN[0m	sectors	storage-sealing/fsm.go:511	sector 2 got error event sealing.SectorSealPreCommit1Failed: seal pre commit(1) failed: storage call error 0: failed to acquire sector {625063 2} from remote(1): sector not found
+2021-07-13T09:16:37.101Z	[34mINFO[0m	sectors	storage-sealing/states_failed.go:26	SealPreCommit1Failed(2), waiting 59.898276563s before retrying
+[7 2 5 3 6 4]
+acceptableWindows[sqi][i]: 2
+acceptableWindows[sqi][j]: 7
+wii: b843cfeb-ddef-471f-af4f-6c41c48ce4ac
+wji: 96465e26-ac3e-47b9-acad-a0263ade2894
+[7 2 5 3 6 4]
+acceptableWindows[sqi][i]: 5
+acceptableWindows[sqi][j]: 2
+wii: 3ec3fe47-8b19-4612-93fc-605d7d0d633f
+wji: b843cfeb-ddef-471f-af4f-6c41c48ce4ac
+[7 2 5 3 6 4]
+acceptableWindows[sqi][i]: 3
+acceptableWindows[sqi][j]: 5
+wii: b843cfeb-ddef-471f-af4f-6c41c48ce4ac
+wji: 3ec3fe47-8b19-4612-93fc-605d7d0d633f
+[7 2 3 5 6 4]
+acceptableWindows[sqi][i]: 3
+acceptableWindows[sqi][j]: 2
+wii: b843cfeb-ddef-471f-af4f-6c41c48ce4ac
+wji: b843cfeb-ddef-471f-af4f-6c41c48ce4ac
+[7 2 3 5 6 4]
+acceptableWindows[sqi][i]: 6
+acceptableWindows[sqi][j]: 5
+wii: 96465e26-ac3e-47b9-acad-a0263ade2894
+wji: 3ec3fe47-8b19-4612-93fc-605d7d0d633f
+[7 2 3 6 5 4]
+acceptableWindows[sqi][i]: 6
+acceptableWindows[sqi][j]: 3
+wii: 96465e26-ac3e-47b9-acad-a0263ade2894
+wji: b843cfeb-ddef-471f-af4f-6c41c48ce4ac
+[7 2 6 3 5 4]
+acceptableWindows[sqi][i]: 6
+acceptableWindows[sqi][j]: 2
+wii: 96465e26-ac3e-47b9-acad-a0263ade2894
+wji: b843cfeb-ddef-471f-af4f-6c41c48ce4ac
+[7 6 2 3 5 4]
+acceptableWindows[sqi][i]: 6
+acceptableWindows[sqi][j]: 7
+wii: 96465e26-ac3e-47b9-acad-a0263ade2894
+wji: 96465e26-ac3e-47b9-acad-a0263ade2894
+[6 7 2 3 5 4]
+acceptableWindows[sqi][i]: 4
+acceptableWindows[sqi][j]: 5
+wii: 3ec3fe47-8b19-4612-93fc-605d7d0d633f
+wji: 3ec3fe47-8b19-4612-93fc-605d7d0d633f
+[6 7 2 3 4 5]
+acceptableWindows[sqi][i]: 4
+acceptableWindows[sqi][j]: 3
+wii: 3ec3fe47-8b19-4612-93fc-605d7d0d633f
+wji: b843cfeb-ddef-471f-af4f-6c41c48ce4ac
+run task worker id: 96465e26-ac3e-47b9-acad-a0263ade2894
+2021-07-13T09:17:37.092Z	[33mWARN[0m	advmgr	sector-storage/manager_calltracker.go:149	canceling started (not running) work seal/v0/precommit/1([[{"ID":{"Miner":625063,"Number":2},"ProofType":6},"TYzsaLgE4OgsHPmsarXjBJpQHE6GQAJoktjGYY48jV8=",[{"Size":17179869184,"PieceCID":{"/":"baga6ea4seaqg2nsld34emra2ljfgrbrdcswmbjdpaftrpzjuipudt3w7qpbikpa"}}]]])
+2021-07-13T09:17:37.096Z	[33mWARN[0m	sectors	storage-sealing/fsm.go:511	sector 2 got error event sealing.SectorSealPreCommit1Failed: seal pre commit(1) failed: storage call error 0: failed to acquire sector {625063 2} from remote(1): sector not found
+2021-07-13T09:17:37.099Z	[34mINFO[0m	sectors	storage-sealing/states_failed.go:26	SealPreCommit1Failed(2), waiting 59.900335743s before retrying
+[6 3 2 5 7 4]
+acceptableWindows[sqi][i]: 3
+acceptableWindows[sqi][j]: 6
+wii: b843cfeb-ddef-471f-af4f-6c41c48ce4ac
+wji: 96465e26-ac3e-47b9-acad-a0263ade2894
+[6 3 2 5 7 4]
+acceptableWindows[sqi][i]: 2
+acceptableWindows[sqi][j]: 3
+wii: b843cfeb-ddef-471f-af4f-6c41c48ce4ac
+wji: b843cfeb-ddef-471f-af4f-6c41c48ce4ac
+[6 2 3 5 7 4]
+acceptableWindows[sqi][i]: 2
+acceptableWindows[sqi][j]: 6
+wii: b843cfeb-ddef-471f-af4f-6c41c48ce4ac
+wji: 96465e26-ac3e-47b9-acad-a0263ade2894
+[6 2 3 5 7 4]
+acceptableWindows[sqi][i]: 5
+acceptableWindows[sqi][j]: 3
+wii: 3ec3fe47-8b19-4612-93fc-605d7d0d633f
+wji: b843cfeb-ddef-471f-af4f-6c41c48ce4ac
+[6 2 3 5 7 4]
+acceptableWindows[sqi][i]: 7
+acceptableWindows[sqi][j]: 5
+wii: 96465e26-ac3e-47b9-acad-a0263ade2894
+wji: 3ec3fe47-8b19-4612-93fc-605d7d0d633f
+[6 2 3 7 5 4]
+acceptableWindows[sqi][i]: 7
+acceptableWindows[sqi][j]: 3
+wii: 96465e26-ac3e-47b9-acad-a0263ade2894
+wji: b843cfeb-ddef-471f-af4f-6c41c48ce4ac
+[6 2 7 3 5 4]
+acceptableWindows[sqi][i]: 7
+acceptableWindows[sqi][j]: 2
+wii: 96465e26-ac3e-47b9-acad-a0263ade2894
+wji: b843cfeb-ddef-471f-af4f-6c41c48ce4ac
+[6 7 2 3 5 4]
+acceptableWindows[sqi][i]: 7
+acceptableWindows[sqi][j]: 6
+wii: 96465e26-ac3e-47b9-acad-a0263ade2894
+wji: 96465e26-ac3e-47b9-acad-a0263ade2894
+[6 7 2 3 5 4]
+acceptableWindows[sqi][i]: 4
+acceptableWindows[sqi][j]: 5
+wii: 3ec3fe47-8b19-4612-93fc-605d7d0d633f
+wji: 3ec3fe47-8b19-4612-93fc-605d7d0d633f
+[6 7 2 3 4 5]
+acceptableWindows[sqi][i]: 4
+acceptableWindows[sqi][j]: 3
+wii: 3ec3fe47-8b19-4612-93fc-605d7d0d633f
+wji: b843cfeb-ddef-471f-af4f-6c41c48ce4ac
+run task worker id: 96465e26-ac3e-47b9-acad-a0263ade2894
+2021-07-13T09:18:37.100Z	[33mWARN[0m	advmgr	sector-storage/manager_calltracker.go:149	canceling started (not running) work seal/v0/precommit/1([[{"ID":{"Miner":625063,"Number":2},"ProofType":6},"TYzsaLgE4OgsHPmsarXjBJpQHE6GQAJoktjGYY48jV8=",[{"Size":17179869184,"PieceCID":{"/":"baga6ea4seaqg2nsld34emra2ljfgrbrdcswmbjdpaftrpzjuipudt3w7qpbikpa"}}]]])
+2021-07-13T09:18:37.103Z	[33mWARN[0m	sectors	storage-sealing/fsm.go:511	sector 2 got error event sealing.SectorSealPreCommit1Failed: seal pre commit(1) failed: storage call error 0: failed to acquire sector {625063 2} from remote(1): sector not found
+2021-07-13T09:18:37.106Z	[34mINFO[0m	sectors	storage-sealing/states_failed.go:26	SealPreCommit1Failed(2), waiting 59.893417212s before retrying
+2021-07-13T09:19:03.760Z	[33mWARN[0m	advmgr	sector-storage/sched_worker.go:215	failed to check worker session	{"error": "RPC client error: sendRequest failed: Post \"http://192.168.18.58:3456/rpc/v0\": dial tcp 192.168.18.58:3456: connect: connection refused"}
+2021-07-13T09:19:13.760Z	[33mWARN[0m	advmgr	sector-storage/sched_worker.go:215	failed to check worker session	{"error": "RPC client error: sendRequest failed: Post \"http://192.168.18.58:3456/rpc/v0\": dial tcp 192.168.18.58:3456: connect: connection refused"}
+2021-07-13T09:19:23.760Z	[33mWARN[0m	advmgr	sector-storage/sched_worker.go:215	failed to check worker session	{"error": "RPC client error: sendRequest failed: Post \"http://192.168.18.58:3456/rpc/v0\": dial tcp 192.168.18.58:3456: connect: connection refused"}
+2021-07-13T09:19:33.760Z	[33mWARN[0m	advmgr	sector-storage/sched_worker.go:215	failed to check worker session	{"error": "RPC client error: sendRequest failed: Post \"http://192.168.18.58:3456/rpc/v0\": dial tcp 192.168.18.58:3456: connect: connection refused"}
+[2 4 5 3]
+acceptableWindows[sqi][i]: 4
+acceptableWindows[sqi][j]: 2
+wii: 3ec3fe47-8b19-4612-93fc-605d7d0d633f
+wji: b843cfeb-ddef-471f-af4f-6c41c48ce4ac
+[2 4 5 3]
+acceptableWindows[sqi][i]: 5
+acceptableWindows[sqi][j]: 4
+wii: 3ec3fe47-8b19-4612-93fc-605d7d0d633f
+wji: 3ec3fe47-8b19-4612-93fc-605d7d0d633f
+[2 4 5 3]
+acceptableWindows[sqi][i]: 3
+acceptableWindows[sqi][j]: 5
+wii: b843cfeb-ddef-471f-af4f-6c41c48ce4ac
+wji: 3ec3fe47-8b19-4612-93fc-605d7d0d633f
+[2 4 3 5]
+acceptableWindows[sqi][i]: 3
+acceptableWindows[sqi][j]: 4
+wii: b843cfeb-ddef-471f-af4f-6c41c48ce4ac
+wji: 3ec3fe47-8b19-4612-93fc-605d7d0d633f
+[2 3 4 5]
+acceptableWindows[sqi][i]: 3
+acceptableWindows[sqi][j]: 2
+wii: b843cfeb-ddef-471f-af4f-6c41c48ce4ac
+wji: b843cfeb-ddef-471f-af4f-6c41c48ce4ac
+run task worker id: b843cfeb-ddef-471f-af4f-6c41c48ce4ac
+2021-07-13T09:19:37.062Z	[33mWARN[0m	advmgr	sector-storage/manager_calltracker.go:149	canceling started (not running) work seal/v0/precommit/1([[{"ID":{"Miner":625063,"Number":2},"ProofType":6},"TYzsaLgE4OgsHPmsarXjBJpQHE6GQAJoktjGYY48jV8=",[{"Size":17179869184,"PieceCID":{"/":"baga6ea4seaqg2nsld34emra2ljfgrbrdcswmbjdpaftrpzjuipudt3w7qpbikpa"}}]]])
+2021-07-13T09:19:37.066Z	[33mWARN[0m	sectors	storage-sealing/fsm.go:511	sector 2 got error event sealing.SectorSealPreCommit1Failed: seal pre commit(1) failed: storage call error 0: failed to acquire sector {625063 2} from remote(1): sector not found
+2021-07-13T09:19:37.069Z	[34mINFO[0m	sectors	storage-sealing/states_failed.go:26	SealPreCommit1Failed(2), waiting 59.930316463s before retrying
+2021-07-13T09:19:43.760Z	[33mWARN[0m	advmgr	sector-storage/sched_worker.go:215	failed to check worker session	{"error": "RPC client error: sendRequest failed: Post \"http://192.168.18.58:3456/rpc/v0\": dial tcp 192.168.18.58:3456: connect: connection refused"}
+2021-07-13T09:19:52.054Z	[33mWARN[0m	advmgr	sector-storage/sched_worker.go:215	failed to check worker session	{"error": "RPC client error: sendRequest failed: Post \"http://192.168.18.66:3456/rpc/v0\": dial tcp 192.168.18.66:3456: connect: connection refused"}
+2021-07-13T09:19:53.760Z	[33mWARN[0m	advmgr	sector-storage/sched_worker.go:215	failed to check worker session	{"error": "RPC client error: sendRequest failed: Post \"http://192.168.18.58:3456/rpc/v0\": dial tcp 192.168.18.58:3456: connect: connection refused"}
+2021-07-13T09:20:02.054Z	[33mWARN[0m	advmgr	sector-storage/sched_worker.go:215	failed to check worker session	{"error": "RPC client error: sendRequest failed: Post \"http://192.168.18.66:3456/rpc/v0\": dial tcp 192.168.18.66:3456: connect: connection refused"}
+2021-07-13T09:20:03.760Z	[33mWARN[0m	advmgr	sector-storage/sched_worker.go:215	failed to check worker session	{"error": "RPC client error: sendRequest failed: Post \"http://192.168.18.58:3456/rpc/v0\": dial tcp 192.168.18.58:3456: connect: connection refused"}
+2021-07-13T09:20:12.054Z	[33mWARN[0m	advmgr	sector-storage/sched_worker.go:215	failed to check worker session	{"error": "RPC client error: sendRequest failed: Post \"http://192.168.18.66:3456/rpc/v0\": dial tcp 192.168.18.66:3456: connect: connection refused"}
+2021-07-13T09:20:13.760Z	[33mWARN[0m	advmgr	sector-storage/sched_worker.go:215	failed to check worker session	{"error": "RPC client error: sendRequest failed: Post \"http://192.168.18.58:3456/rpc/v0\": dial tcp 192.168.18.58:3456: connect: connection refused"}
+2021-07-13T09:20:22.054Z	[33mWARN[0m	advmgr	sector-storage/sched_worker.go:215	failed to check worker session	{"error": "RPC client error: sendRequest failed: Post \"http://192.168.18.66:3456/rpc/v0\": dial tcp 192.168.18.66:3456: connect: connection refused"}
+2021-07-13T09:20:23.760Z	[33mWARN[0m	advmgr	sector-storage/sched_worker.go:215	failed to check worker session	{"error": "RPC client error: sendRequest failed: Post \"http://192.168.18.58:3456/rpc/v0\": dial tcp 192.168.18.58:3456: connect: connection refused"}
+2021-07-13T09:20:32.054Z	[33mWARN[0m	advmgr	sector-storage/sched_worker.go:215	failed to check worker session	{"error": "RPC client error: sendRequest failed: Post \"http://192.168.18.66:3456/rpc/v0\": dial tcp 192.168.18.66:3456: connect: connection refused"}
+2021-07-13T09:20:33.760Z	[33mWARN[0m	advmgr	sector-storage/sched_worker.go:215	failed to check worker session	{"error": "RPC client error: sendRequest failed: Post \"http://192.168.18.58:3456/rpc/v0\": dial tcp 192.168.18.58:3456: connect: connection refused"}
+[3 2]
+acceptableWindows[sqi][i]: 2
+acceptableWindows[sqi][j]: 3
+wii: 3ec3fe47-8b19-4612-93fc-605d7d0d633f
+wji: 3ec3fe47-8b19-4612-93fc-605d7d0d633f
+run task worker id: 3ec3fe47-8b19-4612-93fc-605d7d0d633f
+2021-07-13T09:20:37.059Z	[33mWARN[0m	advmgr	sector-storage/manager_calltracker.go:149	canceling started (not running) work seal/v0/precommit/1([[{"ID":{"Miner":625063,"Number":2},"ProofType":6},"TYzsaLgE4OgsHPmsarXjBJpQHE6GQAJoktjGYY48jV8=",[{"Size":17179869184,"PieceCID":{"/":"baga6ea4seaqg2nsld34emra2ljfgrbrdcswmbjdpaftrpzjuipudt3w7qpbikpa"}}]]])
+2021-07-13T09:20:37.062Z	[33mWARN[0m	sectors	storage-sealing/fsm.go:511	sector 2 got error event sealing.SectorSealPreCommit1Failed: seal pre commit(1) failed: storage call error 0: failed to acquire sector {625063 2} from remote(1): sector not found
+2021-07-13T09:20:37.065Z	[34mINFO[0m	sectors	storage-sealing/states_failed.go:26	SealPreCommit1Failed(2), waiting 59.934511762s before retrying
+2021-07-13T09:20:42.054Z	[33mWARN[0m	advmgr	sector-storage/sched_worker.go:215	failed to check worker session	{"error": "RPC client error: sendRequest failed: Post \"http://192.168.18.66:3456/rpc/v0\": dial tcp 192.168.18.66:3456: connect: connection refused"}
+2021-07-13T09:20:43.760Z	[33mWARN[0m	advmgr	sector-storage/sched_worker.go:215	failed to check worker session	{"error": "RPC client error: sendRequest failed: Post \"http://192.168.18.58:3456/rpc/v0\": dial tcp 192.168.18.58:3456: connect: connection refused"}
+2021-07-13T09:20:47.886Z	[33mWARN[0m	advmgr	sector-storage/sched_worker.go:215	failed to check worker session	{"error": "RPC client error: sendRequest failed: Post \"http://192.168.18.13:3456/rpc/v0\": dial tcp 192.168.18.13:3456: connect: connection refused"}
+2021-07-13T09:20:52.054Z	[33mWARN[0m	advmgr	sector-storage/sched_worker.go:215	failed to check worker session	{"error": "RPC client error: sendRequest failed: Post \"http://192.168.18.66:3456/rpc/v0\": dial tcp 192.168.18.66:3456: connect: connection refused"}
+2021-07-13T09:20:53.760Z	[33mWARN[0m	advmgr	sector-storage/sched_worker.go:215	failed to check worker session	{"error": "RPC client error: sendRequest failed: Post \"http://192.168.18.58:3456/rpc/v0\": dial tcp 192.168.18.58:3456: connect: connection refused"}
+2021-07-13T09:20:57.886Z	[33mWARN[0m	advmgr	sector-storage/sched_worker.go:215	failed to check worker session	{"error": "RPC client error: sendRequest failed: Post \"http://192.168.18.13:3456/rpc/v0\": dial tcp 192.168.18.13:3456: connect: connection refused"}
+2021-07-13T09:21:02.054Z	[33mWARN[0m	advmgr	sector-storage/sched_worker.go:215	failed to check worker session	{"error": "RPC client error: sendRequest failed: Post \"http://192.168.18.66:3456/rpc/v0\": dial tcp 192.168.18.66:3456: connect: connection refused"}
+2021-07-13T09:21:03.760Z	[33mWARN[0m	advmgr	sector-storage/sched_worker.go:215	failed to check worker session	{"error": "RPC client error: sendRequest failed: Post \"http://192.168.18.58:3456/rpc/v0\": dial tcp 192.168.18.58:3456: connect: connection refused"}
+2021-07-13T09:21:07.886Z	[33mWARN[0m	advmgr	sector-storage/sched_worker.go:215	failed to check worker session	{"error": "RPC client error: sendRequest failed: Post \"http://192.168.18.13:3456/rpc/v0\": dial tcp 192.168.18.13:3456: connect: connection refused"}
+2021-07-13T09:21:12.054Z	[33mWARN[0m	advmgr	sector-storage/sched_worker.go:215	failed to check worker session	{"error": "RPC client error: sendRequest failed: Post \"http://192.168.18.66:3456/rpc/v0\": dial tcp 192.168.18.66:3456: connect: connection refused"}
+2021-07-13T09:21:13.759Z	[33mWARN[0m	advmgr	sector-storage/sched_worker.go:215	failed to check worker session	{"error": "RPC client error: sendRequest failed: Post \"http://192.168.18.58:3456/rpc/v0\": dial tcp 192.168.18.58:3456: connect: connection refused"}
+2021-07-13T09:21:17.886Z	[33mWARN[0m	advmgr	sector-storage/sched_worker.go:215	failed to check worker session	{"error": "RPC client error: sendRequest failed: Post \"http://192.168.18.13:3456/rpc/v0\": dial tcp 192.168.18.13:3456: connect: connection refused"}
+2021-07-13T09:21:22.054Z	[33mWARN[0m	advmgr	sector-storage/sched_worker.go:215	failed to check worker session	{"error": "RPC client error: sendRequest failed: Post \"http://192.168.18.66:3456/rpc/v0\": dial tcp 192.168.18.66:3456: connect: connection refused"}
+2021-07-13T09:21:23.760Z	[33mWARN[0m	advmgr	sector-storage/sched_worker.go:215	failed to check worker session	{"error": "RPC client error: sendRequest failed: Post \"http://192.168.18.58:3456/rpc/v0\": dial tcp 192.168.18.58:3456: connect: connection refused"}
+2021-07-13T09:21:27.886Z	[33mWARN[0m	advmgr	sector-storage/sched_worker.go:215	failed to check worker session	{"error": "RPC client error: sendRequest failed: Post \"http://192.168.18.13:3456/rpc/v0\": dial tcp 192.168.18.13:3456: connect: connection refused"}
+2021-07-13T09:21:32.054Z	[33mWARN[0m	advmgr	sector-storage/sched_worker.go:215	failed to check worker session	{"error": "RPC client error: sendRequest failed: Post \"http://192.168.18.66:3456/rpc/v0\": dial tcp 192.168.18.66:3456: connect: connection refused"}
+2021-07-13T09:21:33.760Z	[33mWARN[0m	advmgr	sector-storage/sched_worker.go:215	failed to check worker session	{"error": "RPC client error: sendRequest failed: Post \"http://192.168.18.58:3456/rpc/v0\": dial tcp 192.168.18.58:3456: connect: connection refused"}
+2021-07-13T09:21:37.886Z	[33mWARN[0m	advmgr	sector-storage/sched_worker.go:215	failed to check worker session	{"error": "RPC client error: sendRequest failed: Post \"http://192.168.18.13:3456/rpc/v0\": dial tcp 192.168.18.13:3456: connect: connection refused"}
+2021-07-13T09:21:42.054Z	[33mWARN[0m	advmgr	sector-storage/sched_worker.go:215	failed to check worker session	{"error": "RPC client error: sendRequest failed: Post \"http://192.168.18.66:3456/rpc/v0\": dial tcp 192.168.18.66:3456: connect: connection refused"}
+2021-07-13T09:21:43.760Z	[33mWARN[0m	advmgr	sector-storage/sched_worker.go:215	failed to check worker session	{"error": "RPC client error: sendRequest failed: Post \"http://192.168.18.58:3456/rpc/v0\": dial tcp 192.168.18.58:3456: connect: connection refused"}
+2021-07-13T09:21:47.887Z	[33mWARN[0m	advmgr	sector-storage/sched_worker.go:215	failed to check worker session	{"error": "RPC client error: sendRequest failed: Post \"http://192.168.18.13:3456/rpc/v0\": dial tcp 192.168.18.13:3456: connect: connection refused"}
+2021-07-13T09:21:52.054Z	[33mWARN[0m	advmgr	sector-storage/sched_worker.go:215	failed to check worker session	{"error": "RPC client error: sendRequest failed: Post \"http://192.168.18.66:3456/rpc/v0\": dial tcp 192.168.18.66:3456: connect: connection refused"}
+2021-07-13T09:21:53.760Z	[33mWARN[0m	advmgr	sector-storage/sched_worker.go:215	failed to check worker session	{"error": "RPC client error: sendRequest failed: Post \"http://192.168.18.58:3456/rpc/v0\": dial tcp 192.168.18.58:3456: connect: connection refused"}
+2021-07-13T09:21:57.886Z	[33mWARN[0m	advmgr	sector-storage/sched_worker.go:215	failed to check worker session	{"error": "RPC client error: sendRequest failed: Post \"http://192.168.18.13:3456/rpc/v0\": dial tcp 192.168.18.13:3456: connect: connection refused"}
+2021-07-13T09:22:02.054Z	[33mWARN[0m	advmgr	sector-storage/sched_worker.go:215	failed to check worker session	{"error": "RPC client error: sendRequest failed: Post \"http://192.168.18.66:3456/rpc/v0\": dial tcp 192.168.18.66:3456: connect: connection refused"}
+2021-07-13T09:22:03.760Z	[33mWARN[0m	advmgr	sector-storage/sched_worker.go:215	failed to check worker session	{"error": "RPC client error: sendRequest failed: Post \"http://192.168.18.58:3456/rpc/v0\": dial tcp 192.168.18.58:3456: connect: connection refused"}
+2021-07-13T09:22:07.886Z	[33mWARN[0m	advmgr	sector-storage/sched_worker.go:215	failed to check worker session	{"error": "RPC client error: sendRequest failed: Post \"http://192.168.18.13:3456/rpc/v0\": dial tcp 192.168.18.13:3456: connect: connection refused"}
+2021-07-13T09:22:12.054Z	[33mWARN[0m	advmgr	sector-storage/sched_worker.go:215	failed to check worker session	{"error": "RPC client error: sendRequest failed: Post \"http://192.168.18.66:3456/rpc/v0\": dial tcp 192.168.18.66:3456: connect: connection refused"}
+2021-07-13T09:22:13.760Z	[33mWARN[0m	advmgr	sector-storage/sched_worker.go:215	failed to check worker session	{"error": "RPC client error: sendRequest failed: Post \"http://192.168.18.58:3456/rpc/v0\": dial tcp 192.168.18.58:3456: connect: connection refused"}
+2021-07-13T09:22:14.370Z	[34mINFO[0m	stores	stores/index.go:138	New sector storage: 6dc4e4db-a354-4b20-b29a-60f373eb90b3
+2021-07-13T09:22:14.371Z	[33mWARN[0m	stores	stores/index.go:204	sector {625036 16} redeclared in 6dc4e4db-a354-4b20-b29a-60f373eb90b3
+2021-07-13T09:22:14.372Z	[33mWARN[0m	stores	stores/index.go:204	sector {625036 17} redeclared in 6dc4e4db-a354-4b20-b29a-60f373eb90b3
+2021-07-13T09:22:14.373Z	[33mWARN[0m	stores	stores/index.go:204	sector {625063 0} redeclared in 6dc4e4db-a354-4b20-b29a-60f373eb90b3
+2021-07-13T09:22:14.373Z	[33mWARN[0m	stores	stores/index.go:204	sector {625063 1} redeclared in 6dc4e4db-a354-4b20-b29a-60f373eb90b3
+2021-07-13T09:22:14.374Z	[33mWARN[0m	stores	stores/index.go:204	sector {625063 3} redeclared in 6dc4e4db-a354-4b20-b29a-60f373eb90b3
+2021-07-13T09:22:14.381Z	[34mINFO[0m	node	impl/storminer.go:305	Connected to a remote worker at http://192.168.18.13:3456/rpc/v0
+2021-07-13T09:22:14.407Z	[33mWARN[0m	sectors	storage-sealing/fsm.go:511	sector 3 got error event sealing.SectorSealPreCommit1Failed: seal pre commit(1) failed: storage call error 101: worker restarted
+2021-07-13T09:22:14.408Z	[34mINFO[0m	sectors	storage-sealing/states_failed.go:26	SealPreCommit1Failed(3), waiting 59.591032823s before retrying
+2021-07-13T09:22:14.444Z	[31mERROR[0m	advmgr	sector-storage/sched.go:431	trySched(1) req.sel.Ok error: finding best alloc storage:
+    github.com/filecoin-project/lotus/extern/sector-storage.(*allocSelector).Ok
+        /mnt/jenkins/workspace/FIC-Intel-Rel1.2_github/lotus/extern/sector-storage/selector_alloc.go:57
+  - no good path found:
+    github.com/filecoin-project/lotus/extern/sector-storage/stores.(*Index).StorageBestAlloc
+        /mnt/jenkins/workspace/FIC-Intel-Rel1.2_github/lotus/extern/sector-storage/stores/index.go:410
+2021-07-13T09:22:14.447Z	[31mERROR[0m	advmgr	sector-storage/sched.go:431	trySched(1) req.sel.Ok error: finding best alloc storage:
+    github.com/filecoin-project/lotus/extern/sector-storage.(*allocSelector).Ok
+        /mnt/jenkins/workspace/FIC-Intel-Rel1.2_github/lotus/extern/sector-storage/selector_alloc.go:57
+  - no good path found:
+    github.com/filecoin-project/lotus/extern/sector-storage/stores.(*Index).StorageBestAlloc
+        /mnt/jenkins/workspace/FIC-Intel-Rel1.2_github/lotus/extern/sector-storage/stores/index.go:410
+2021-07-13T09:22:17.887Z	[33mWARN[0m	advmgr	sector-storage/sched_worker.go:244	worker session changed (worker restarted?)	{"initial": "3ec3fe47-8b19-4612-93fc-605d7d0d633f", "current": "d3ee7889-a909-4168-9111-bba6349efc77"}
+2021-07-13T09:22:17.887Z	[33mWARN[0m	advmgr	sector-storage/sched_worker.go:96	Worker closing	{"workerid": "3ec3fe47-8b19-4612-93fc-605d7d0d633f"}
+2021-07-13T09:22:17.891Z	[31mERROR[0m	advmgr	sector-storage/sched.go:431	trySched(1) req.sel.Ok error: finding best alloc storage:
+    github.com/filecoin-project/lotus/extern/sector-storage.(*allocSelector).Ok
+        /mnt/jenkins/workspace/FIC-Intel-Rel1.2_github/lotus/extern/sector-storage/selector_alloc.go:57
+  - no good path found:
+    github.com/filecoin-project/lotus/extern/sector-storage/stores.(*Index).StorageBestAlloc
+        /mnt/jenkins/workspace/FIC-Intel-Rel1.2_github/lotus/extern/sector-storage/stores/index.go:410
+2021-07-13T09:22:17.894Z	[31mERROR[0m	advmgr	sector-storage/sched.go:431	trySched(1) req.sel.Ok error: finding best alloc storage:
+    github.com/filecoin-project/lotus/extern/sector-storage.(*allocSelector).Ok
+        /mnt/jenkins/workspace/FIC-Intel-Rel1.2_github/lotus/extern/sector-storage/selector_alloc.go:57
+  - no good path found:
+    github.com/filecoin-project/lotus/extern/sector-storage/stores.(*Index).StorageBestAlloc
+        /mnt/jenkins/workspace/FIC-Intel-Rel1.2_github/lotus/extern/sector-storage/stores/index.go:410
+2021-07-13T09:22:22.054Z	[33mWARN[0m	advmgr	sector-storage/sched_worker.go:215	failed to check worker session	{"error": "RPC client error: sendRequest failed: Post \"http://192.168.18.66:3456/rpc/v0\": dial tcp 192.168.18.66:3456: connect: connection refused"}
+2021-07-13T09:22:22.059Z	[31mERROR[0m	advmgr	sector-storage/sched.go:431	trySched(1) req.sel.Ok error: finding best alloc storage:
+    github.com/filecoin-project/lotus/extern/sector-storage.(*allocSelector).Ok
+        /mnt/jenkins/workspace/FIC-Intel-Rel1.2_github/lotus/extern/sector-storage/selector_alloc.go:57
+  - no good path found:
+    github.com/filecoin-project/lotus/extern/sector-storage/stores.(*Index).StorageBestAlloc
+        /mnt/jenkins/workspace/FIC-Intel-Rel1.2_github/lotus/extern/sector-storage/stores/index.go:410
+2021-07-13T09:22:22.062Z	[31mERROR[0m	advmgr	sector-storage/sched.go:431	trySched(1) req.sel.Ok error: finding best alloc storage:
+    github.com/filecoin-project/lotus/extern/sector-storage.(*allocSelector).Ok
+        /mnt/jenkins/workspace/FIC-Intel-Rel1.2_github/lotus/extern/sector-storage/selector_alloc.go:57
+  - no good path found:
+    github.com/filecoin-project/lotus/extern/sector-storage/stores.(*Index).StorageBestAlloc
+        /mnt/jenkins/workspace/FIC-Intel-Rel1.2_github/lotus/extern/sector-storage/stores/index.go:410
+2021-07-13T09:22:23.760Z	[33mWARN[0m	advmgr	sector-storage/sched_worker.go:215	failed to check worker session	{"error": "RPC client error: sendRequest failed: Post \"http://192.168.18.58:3456/rpc/v0\": dial tcp 192.168.18.58:3456: connect: connection refused"}
+2021-07-13T09:22:23.764Z	[31mERROR[0m	advmgr	sector-storage/sched.go:431	trySched(1) req.sel.Ok error: finding best alloc storage:
+    github.com/filecoin-project/lotus/extern/sector-storage.(*allocSelector).Ok
+        /mnt/jenkins/workspace/FIC-Intel-Rel1.2_github/lotus/extern/sector-storage/selector_alloc.go:57
+  - no good path found:
+    github.com/filecoin-project/lotus/extern/sector-storage/stores.(*Index).StorageBestAlloc
+        /mnt/jenkins/workspace/FIC-Intel-Rel1.2_github/lotus/extern/sector-storage/stores/index.go:410
+2021-07-13T09:22:23.768Z	[31mERROR[0m	advmgr	sector-storage/sched.go:431	trySched(1) req.sel.Ok error: finding best alloc storage:
+    github.com/filecoin-project/lotus/extern/sector-storage.(*allocSelector).Ok
+        /mnt/jenkins/workspace/FIC-Intel-Rel1.2_github/lotus/extern/sector-storage/selector_alloc.go:57
+  - no good path found:
+    github.com/filecoin-project/lotus/extern/sector-storage/stores.(*Index).StorageBestAlloc
+        /mnt/jenkins/workspace/FIC-Intel-Rel1.2_github/lotus/extern/sector-storage/stores/index.go:410
+2021-07-13T09:22:32.054Z	[33mWARN[0m	advmgr	sector-storage/sched_worker.go:215	failed to check worker session	{"error": "RPC client error: sendRequest failed: Post \"http://192.168.18.66:3456/rpc/v0\": dial tcp 192.168.18.66:3456: connect: connection refused"}
+[3 2]
+acceptableWindows[sqi][i]: 2
+acceptableWindows[sqi][j]: 3
+wii: d3ee7889-a909-4168-9111-bba6349efc77
+wji: d3ee7889-a909-4168-9111-bba6349efc77
+run task worker id: d3ee7889-a909-4168-9111-bba6349efc77
+2021-07-13T09:22:32.078Z	[33mWARN[0m	advmgr	sector-storage/manager_calltracker.go:149	canceling started (not running) work seal/v0/precommit/1([[{"ID":{"Miner":625063,"Number":2},"ProofType":6},"TYzsaLgE4OgsHPmsarXjBJpQHE6GQAJoktjGYY48jV8=",[{"Size":17179869184,"PieceCID":{"/":"baga6ea4seaqg2nsld34emra2ljfgrbrdcswmbjdpaftrpzjuipudt3w7qpbikpa"}}]]])
+2021-07-13T09:22:32.102Z	[33mWARN[0m	sectors	storage-sealing/fsm.go:511	sector 2 got error event sealing.SectorSealPreCommit1Failed: seal pre commit(1) failed: storage call error 0: failed to acquire sector {625063 2} from remote(1): sector not found
+2021-07-13T09:22:32.105Z	[34mINFO[0m	sectors	storage-sealing/states_failed.go:26	SealPreCommit1Failed(2), waiting 59.894219757s before retrying
+2021-07-13T09:22:33.760Z	[33mWARN[0m	advmgr	sector-storage/sched_worker.go:215	failed to check worker session	{"error": "RPC client error: sendRequest failed: Post \"http://192.168.18.58:3456/rpc/v0\": dial tcp 192.168.18.58:3456: connect: connection refused"}
+2021-07-13T09:22:42.054Z	[33mWARN[0m	advmgr	sector-storage/sched_worker.go:215	failed to check worker session	{"error": "RPC client error: sendRequest failed: Post \"http://192.168.18.66:3456/rpc/v0\": dial tcp 192.168.18.66:3456: connect: connection refused"}
+2021-07-13T09:22:43.760Z	[33mWARN[0m	advmgr	sector-storage/sched_worker.go:215	failed to check worker session	{"error": "RPC client error: sendRequest failed: Post \"http://192.168.18.58:3456/rpc/v0\": dial tcp 192.168.18.58:3456: connect: connection refused"}
+2021-07-13T09:22:52.054Z	[33mWARN[0m	advmgr	sector-storage/sched_worker.go:215	failed to check worker session	{"error": "RPC client error: sendRequest failed: Post \"http://192.168.18.66:3456/rpc/v0\": dial tcp 192.168.18.66:3456: connect: connection refused"}
+2021-07-13T09:22:53.760Z	[33mWARN[0m	advmgr	sector-storage/sched_worker.go:215	failed to check worker session	{"error": "RPC client error: sendRequest failed: Post \"http://192.168.18.58:3456/rpc/v0\": dial tcp 192.168.18.58:3456: connect: connection refused"}
+2021-07-13T09:23:02.054Z	[33mWARN[0m	advmgr	sector-storage/sched_worker.go:215	failed to check worker session	{"error": "RPC client error: sendRequest failed: Post \"http://192.168.18.66:3456/rpc/v0\": dial tcp 192.168.18.66:3456: connect: connection refused"}
+2021-07-13T09:23:03.760Z	[33mWARN[0m	advmgr	sector-storage/sched_worker.go:215	failed to check worker session	{"error": "RPC client error: sendRequest failed: Post \"http://192.168.18.58:3456/rpc/v0\": dial tcp 192.168.18.58:3456: connect: connection refused"}
+2021-07-13T09:23:12.054Z	[33mWARN[0m	advmgr	sector-storage/sched_worker.go:215	failed to check worker session	{"error": "RPC client error: sendRequest failed: Post \"http://192.168.18.66:3456/rpc/v0\": dial tcp 192.168.18.66:3456: connect: connection refused"}
+2021-07-13T09:23:13.760Z	[33mWARN[0m	advmgr	sector-storage/sched_worker.go:215	failed to check worker session	{"error": "RPC client error: sendRequest failed: Post \"http://192.168.18.58:3456/rpc/v0\": dial tcp 192.168.18.58:3456: connect: connection refused"}
+[2 3]
+acceptableWindows[sqi][i]: 3
+acceptableWindows[sqi][j]: 2
+wii: d3ee7889-a909-4168-9111-bba6349efc77
+wji: d3ee7889-a909-4168-9111-bba6349efc77
+run task worker id: d3ee7889-a909-4168-9111-bba6349efc77
+2021-07-13T09:23:22.054Z	[33mWARN[0m	advmgr	sector-storage/sched_worker.go:215	failed to check worker session	{"error": "RPC client error: sendRequest failed: Post \"http://192.168.18.66:3456/rpc/v0\": dial tcp 192.168.18.66:3456: connect: connection refused"}
+2021-07-13T09:23:23.760Z	[33mWARN[0m	advmgr	sector-storage/sched_worker.go:215	failed to check worker session	{"error": "RPC client error: sendRequest failed: Post \"http://192.168.18.58:3456/rpc/v0\": dial tcp 192.168.18.58:3456: connect: connection refused"}
+[3 2]
+acceptableWindows[sqi][i]: 2
+acceptableWindows[sqi][j]: 3
+wii: d3ee7889-a909-4168-9111-bba6349efc77
+wji: d3ee7889-a909-4168-9111-bba6349efc77
+run task worker id: d3ee7889-a909-4168-9111-bba6349efc77
+2021-07-13T09:23:32.054Z	[33mWARN[0m	advmgr	sector-storage/sched_worker.go:215	failed to check worker session	{"error": "RPC client error: sendRequest failed: Post \"http://192.168.18.66:3456/rpc/v0\": dial tcp 192.168.18.66:3456: connect: connection refused"}
+2021-07-13T09:23:32.133Z	[33mWARN[0m	advmgr	sector-storage/manager_calltracker.go:149	canceling started (not running) work seal/v0/precommit/1([[{"ID":{"Miner":625063,"Number":2},"ProofType":6},"TYzsaLgE4OgsHPmsarXjBJpQHE6GQAJoktjGYY48jV8=",[{"Size":17179869184,"PieceCID":{"/":"baga6ea4seaqg2nsld34emra2ljfgrbrdcswmbjdpaftrpzjuipudt3w7qpbikpa"}}]]])
+2021-07-13T09:23:32.136Z	[33mWARN[0m	sectors	storage-sealing/fsm.go:511	sector 2 got error event sealing.SectorSealPreCommit1Failed: seal pre commit(1) failed: storage call error 0: failed to acquire sector {625063 2} from remote(1): sector not found
+2021-07-13T09:23:32.139Z	[34mINFO[0m	sectors	storage-sealing/states_failed.go:26	SealPreCommit1Failed(2), waiting 59.860854364s before retrying
+2021-07-13T09:23:33.760Z	[33mWARN[0m	advmgr	sector-storage/sched_worker.go:215	failed to check worker session	{"error": "RPC client error: sendRequest failed: Post \"http://192.168.18.58:3456/rpc/v0\": dial tcp 192.168.18.58:3456: connect: connection refused"}
+2021-07-13T09:23:42.053Z	[33mWARN[0m	advmgr	sector-storage/sched_worker.go:215	failed to check worker session	{"error": "RPC client error: sendRequest failed: Post \"http://192.168.18.66:3456/rpc/v0\": dial tcp 192.168.18.66:3456: connect: connection refused"}
+2021-07-13T09:23:43.760Z	[33mWARN[0m	advmgr	sector-storage/sched_worker.go:215	failed to check worker session	{"error": "RPC client error: sendRequest failed: Post \"http://192.168.18.58:3456/rpc/v0\": dial tcp 192.168.18.58:3456: connect: connection refused"}
+2021-07-13T09:23:52.054Z	[33mWARN[0m	advmgr	sector-storage/sched_worker.go:215	failed to check worker session	{"error": "RPC client error: sendRequest failed: Post \"http://192.168.18.66:3456/rpc/v0\": dial tcp 192.168.18.66:3456: connect: connection refused"}
+2021-07-13T09:23:53.760Z	[33mWARN[0m	advmgr	sector-storage/sched_worker.go:215	failed to check worker session	{"error": "RPC client error: sendRequest failed: Post \"http://192.168.18.58:3456/rpc/v0\": dial tcp 192.168.18.58:3456: connect: connection refused"}
+2021-07-13T09:24:02.053Z	[33mWARN[0m	advmgr	sector-storage/sched_worker.go:215	failed to check worker session	{"error": "RPC client error: sendRequest failed: Post \"http://192.168.18.66:3456/rpc/v0\": dial tcp 192.168.18.66:3456: connect: connection refused"}
+2021-07-13T09:24:03.760Z	[33mWARN[0m	advmgr	sector-storage/sched_worker.go:215	failed to check worker session	{"error": "RPC client error: sendRequest failed: Post \"http://192.168.18.58:3456/rpc/v0\": dial tcp 192.168.18.58:3456: connect: connection refused"}
+2021-07-13T09:24:12.054Z	[33mWARN[0m	advmgr	sector-storage/sched_worker.go:215	failed to check worker session	{"error": "RPC client error: sendRequest failed: Post \"http://192.168.18.66:3456/rpc/v0\": dial tcp 192.168.18.66:3456: connect: connection refused"}
+2021-07-13T09:24:13.760Z	[33mWARN[0m	advmgr	sector-storage/sched_worker.go:215	failed to check worker session	{"error": "RPC client error: sendRequest failed: Post \"http://192.168.18.58:3456/rpc/v0\": dial tcp 192.168.18.58:3456: connect: connection refused"}
+2021-07-13T09:24:22.054Z	[33mWARN[0m	advmgr	sector-storage/sched_worker.go:215	failed to check worker session	{"error": "RPC client error: sendRequest failed: Post \"http://192.168.18.66:3456/rpc/v0\": dial tcp 192.168.18.66:3456: connect: connection refused"}
+2021-07-13T09:24:23.760Z	[33mWARN[0m	advmgr	sector-storage/sched_worker.go:215	failed to check worker session	{"error": "RPC client error: sendRequest failed: Post \"http://192.168.18.58:3456/rpc/v0\": dial tcp 192.168.18.58:3456: connect: connection refused"}
+2021-07-13T09:24:23.904Z	[34mINFO[0m	stores	stores/index.go:138	New sector storage: b953878e-bafa-4a66-b91d-958a6ef1d8e8
+2021-07-13T09:24:23.909Z	[34mINFO[0m	node	impl/storminer.go:305	Connected to a remote worker at http://192.168.18.66:3456/rpc/v0
+[2 3]
+acceptableWindows[sqi][i]: 3
+acceptableWindows[sqi][j]: 2
+wii: d3ee7889-a909-4168-9111-bba6349efc77
+wji: d3ee7889-a909-4168-9111-bba6349efc77
+run task worker id: d3ee7889-a909-4168-9111-bba6349efc77
+2021-07-13T09:24:32.054Z	[33mWARN[0m	advmgr	sector-storage/sched_worker.go:244	worker session changed (worker restarted?)	{"initial": "b843cfeb-ddef-471f-af4f-6c41c48ce4ac", "current": "2723c186-ae55-42bd-b308-2d404008883c"}
+2021-07-13T09:24:32.054Z	[33mWARN[0m	advmgr	sector-storage/sched_worker.go:96	Worker closing	{"workerid": "b843cfeb-ddef-471f-af4f-6c41c48ce4ac"}
+2021-07-13T09:24:32.066Z	[33mWARN[0m	advmgr	sector-storage/manager_calltracker.go:149	canceling started (not running) work seal/v0/precommit/1([[{"ID":{"Miner":625063,"Number":2},"ProofType":6},"TYzsaLgE4OgsHPmsarXjBJpQHE6GQAJoktjGYY48jV8=",[{"Size":17179869184,"PieceCID":{"/":"baga6ea4seaqg2nsld34emra2ljfgrbrdcswmbjdpaftrpzjuipudt3w7qpbikpa"}}]]])
+2021-07-13T09:24:32.069Z	[33mWARN[0m	sectors	storage-sealing/fsm.go:511	sector 2 got error event sealing.SectorSealPreCommit1Failed: seal pre commit(1) failed: storage call error 0: failed to acquire sector {625063 2} from remote(1): sector not found
+2021-07-13T09:24:32.071Z	[34mINFO[0m	sectors	storage-sealing/states_failed.go:26	SealPreCommit1Failed(2), waiting 59.928314763s before retrying
+2021-07-13T09:24:33.760Z	[33mWARN[0m	advmgr	sector-storage/sched_worker.go:215	failed to check worker session	{"error": "RPC client error: sendRequest failed: Post \"http://192.168.18.58:3456/rpc/v0\": dial tcp 192.168.18.58:3456: connect: connection refused"}
+2021-07-13T09:24:43.760Z	[33mWARN[0m	advmgr	sector-storage/sched_worker.go:215	failed to check worker session	{"error": "RPC client error: sendRequest failed: Post \"http://192.168.18.58:3456/rpc/v0\": dial tcp 192.168.18.58:3456: connect: connection refused"}
+2021-07-13T09:24:53.760Z	[33mWARN[0m	advmgr	sector-storage/sched_worker.go:215	failed to check worker session	{"error": "RPC client error: sendRequest failed: Post \"http://192.168.18.58:3456/rpc/v0\": dial tcp 192.168.18.58:3456: connect: connection refused"}
+2021-07-13T09:25:03.760Z	[33mWARN[0m	advmgr	sector-storage/sched_worker.go:215	failed to check worker session	{"error": "RPC client error: sendRequest failed: Post \"http://192.168.18.58:3456/rpc/v0\": dial tcp 192.168.18.58:3456: connect: connection refused"}
+2021-07-13T09:25:09.827Z	[33mWARN[0m	rpc	go-jsonrpc@v0.1.2/handler.go:279	error in RPC call to 'Filecoin.StorageStat': do request:
+    github.com/filecoin-project/lotus/extern/sector-storage/stores.(*Remote).FsStat
+        /mnt/jenkins/workspace/FIC-Intel-Rel1.2_github/lotus/extern/sector-storage/stores/remote.go:381
+  - Get "http://192.168.18.58:3456/remote/stat/dd66d16e-be29-4330-a903-5b43dbdcdcd9": dial tcp 192.168.18.58:3456: connect: connection refused
+2021-07-13T09:25:09.834Z	[33mWARN[0m	rpc	go-jsonrpc@v0.1.2/handler.go:279	error in RPC call to 'Filecoin.StorageStat': do request:
+    github.com/filecoin-project/lotus/extern/sector-storage/stores.(*Remote).FsStat
+        /mnt/jenkins/workspace/FIC-Intel-Rel1.2_github/lotus/extern/sector-storage/stores/remote.go:381
+  - Get "http://192.168.18.58:3456/remote/stat/dd66d16e-be29-4330-a903-5b43dbdcdcd9": dial tcp 192.168.18.58:3456: connect: connection refused
+2021-07-13T09:25:13.760Z	[33mWARN[0m	advmgr	sector-storage/sched_worker.go:215	failed to check worker session	{"error": "RPC client error: sendRequest failed: Post \"http://192.168.18.58:3456/rpc/v0\": dial tcp 192.168.18.58:3456: connect: connection refused"}
+2021-07-13T09:25:23.760Z	[33mWARN[0m	advmgr	sector-storage/sched_worker.go:215	failed to check worker session	{"error": "RPC client error: sendRequest failed: Post \"http://192.168.18.58:3456/rpc/v0\": dial tcp 192.168.18.58:3456: connect: connection refused"}
+[5 2]
+acceptableWindows[sqi][i]: 2
+acceptableWindows[sqi][j]: 5
+wii: d3ee7889-a909-4168-9111-bba6349efc77
+wji: d3ee7889-a909-4168-9111-bba6349efc77
+run task worker id: d3ee7889-a909-4168-9111-bba6349efc77
+2021-07-13T09:25:32.060Z	[33mWARN[0m	advmgr	sector-storage/manager_calltracker.go:149	canceling started (not running) work seal/v0/precommit/1([[{"ID":{"Miner":625063,"Number":2},"ProofType":6},"TYzsaLgE4OgsHPmsarXjBJpQHE6GQAJoktjGYY48jV8=",[{"Size":17179869184,"PieceCID":{"/":"baga6ea4seaqg2nsld34emra2ljfgrbrdcswmbjdpaftrpzjuipudt3w7qpbikpa"}}]]])
+2021-07-13T09:25:32.063Z	[33mWARN[0m	sectors	storage-sealing/fsm.go:511	sector 2 got error event sealing.SectorSealPreCommit1Failed: seal pre commit(1) failed: storage call error 0: failed to acquire sector {625063 2} from remote(1): sector not found
+2021-07-13T09:25:32.066Z	[34mINFO[0m	sectors	storage-sealing/states_failed.go:26	SealPreCommit1Failed(2), waiting 59.933326555s before retrying
+2021-07-13T09:25:33.760Z	[33mWARN[0m	advmgr	sector-storage/sched_worker.go:215	failed to check worker session	{"error": "RPC client error: sendRequest failed: Post \"http://192.168.18.58:3456/rpc/v0\": dial tcp 192.168.18.58:3456: connect: connection refused"}
+2021-07-13T09:25:43.760Z	[33mWARN[0m	advmgr	sector-storage/sched_worker.go:215	failed to check worker session	{"error": "RPC client error: sendRequest failed: Post \"http://192.168.18.58:3456/rpc/v0\": dial tcp 192.168.18.58:3456: connect: connection refused"}
+2021-07-13T09:25:53.760Z	[33mWARN[0m	advmgr	sector-storage/sched_worker.go:215	failed to check worker session	{"error": "RPC client error: sendRequest failed: Post \"http://192.168.18.58:3456/rpc/v0\": dial tcp 192.168.18.58:3456: connect: connection refused"}
+2021-07-13T09:25:56.062Z	[34mINFO[0m	stores	stores/index.go:138	New sector storage: dd66d16e-be29-4330-a903-5b43dbdcdcd9
+2021-07-13T09:25:56.063Z	[33mWARN[0m	stores	stores/index.go:204	sector {623959 1} redeclared in dd66d16e-be29-4330-a903-5b43dbdcdcd9
+2021-07-13T09:25:56.075Z	[34mINFO[0m	node	impl/storminer.go:305	Connected to a remote worker at http://192.168.18.58:3456/rpc/v0
+2021-07-13T09:26:03.761Z	[33mWARN[0m	advmgr	sector-storage/sched_worker.go:244	worker session changed (worker restarted?)	{"initial": "96465e26-ac3e-47b9-acad-a0263ade2894", "current": "f118c4dd-ebd3-4cbe-969c-e98b940e4cbf"}
+2021-07-13T09:26:03.762Z	[33mWARN[0m	advmgr	sector-storage/sched_worker.go:96	Worker closing	{"workerid": "96465e26-ac3e-47b9-acad-a0263ade2894"}
+2021-07-13T09:26:14.442Z	[33mWARN[0m	advmgr	sector-storage/sched_worker.go:215	failed to check worker session	{"error": "RPC client error: sendRequest failed: Post \"http://192.168.18.13:3456/rpc/v0\": dial tcp 192.168.18.13:3456: connect: connection refused"}
+2021-07-13T09:26:24.442Z	[33mWARN[0m	advmgr	sector-storage/sched_worker.go:215	failed to check worker session	{"error": "RPC client error: sendRequest failed: Post \"http://192.168.18.13:3456/rpc/v0\": dial tcp 192.168.18.13:3456: connect: connection refused"}
+2021-07-13T09:26:32.025Z	[34mINFO[0m	stores	stores/local.go:581	remove /mnt/lykj/lotus-miner/sealed/s-t0625063-2
+2021-07-13T09:26:34.428Z	[34mINFO[0m	stores	stores/local.go:581	remove /mnt/lykj/lotus-miner/cache/s-t0625063-2
+2021-07-13T09:26:34.436Z	[31mERROR[0m	evtsm	go-statemachine@v0.0.0-20200925024713-05bd7c71fbfe/machine.go:83	Executing event planner failed: running planner for state Removing failed:
+    github.com/filecoin-project/lotus/extern/storage-sealing.(*Sealing).plan
+        /mnt/jenkins/workspace/FIC-Intel-Rel1.2_github/lotus/extern/storage-sealing/fsm.go:218
+  - planner for state Removing received unexpected event sealing.SectorRetrySealPreCommit1 ({User:{}}):
+    github.com/filecoin-project/lotus/extern/storage-sealing.planOne.func1
+        /mnt/jenkins/workspace/FIC-Intel-Rel1.2_github/lotus/extern/storage-sealing/fsm.go:523
+2021-07-13T09:26:34.442Z	[33mWARN[0m	advmgr	sector-storage/sched_worker.go:215	failed to check worker session	{"error": "RPC client error: sendRequest failed: Post \"http://192.168.18.13:3456/rpc/v0\": dial tcp 192.168.18.13:3456: connect: connection refused"}
+2021-07-13T09:26:44.442Z	[33mWARN[0m	advmgr	sector-storage/sched_worker.go:215	failed to check worker session	{"error": "RPC client error: sendRequest failed: Post \"http://192.168.18.13:3456/rpc/v0\": dial tcp 192.168.18.13:3456: connect: connection refused"}
+2021-07-13T09:26:54.442Z	[33mWARN[0m	advmgr	sector-storage/sched_worker.go:215	failed to check worker session	{"error": "RPC client error: sendRequest failed: Post \"http://192.168.18.13:3456/rpc/v0\": dial tcp 192.168.18.13:3456: connect: connection refused"}
+2021-07-13T09:27:04.442Z	[33mWARN[0m	advmgr	sector-storage/sched_worker.go:215	failed to check worker session	{"error": "RPC client error: sendRequest failed: Post \"http://192.168.18.13:3456/rpc/v0\": dial tcp 192.168.18.13:3456: connect: connection refused"}
+2021-07-13T09:27:05.811Z	[34mINFO[0m	stores	stores/index.go:138	New sector storage: 6dc4e4db-a354-4b20-b29a-60f373eb90b3
+2021-07-13T09:27:05.813Z	[33mWARN[0m	stores	stores/index.go:204	sector {625063 3} redeclared in 6dc4e4db-a354-4b20-b29a-60f373eb90b3
+2021-07-13T09:27:05.820Z	[34mINFO[0m	node	impl/storminer.go:305	Connected to a remote worker at http://192.168.18.13:3456/rpc/v0
+2021-07-13T09:27:05.844Z	[33mWARN[0m	sectors	storage-sealing/fsm.go:511	sector 3 got error event sealing.SectorSealPreCommit1Failed: seal pre commit(1) failed: storage call error 101: worker restarted
+2021-07-13T09:27:05.846Z	[34mINFO[0m	sectors	storage-sealing/states_failed.go:26	SealPreCommit1Failed(3), waiting 59.153525206s before retrying
+2021-07-13T09:27:14.443Z	[33mWARN[0m	advmgr	sector-storage/sched_worker.go:244	worker session changed (worker restarted?)	{"initial": "d3ee7889-a909-4168-9111-bba6349efc77", "current": "4de0038b-611a-4976-80e5-52ce5d9452c5"}
+2021-07-13T09:27:14.443Z	[33mWARN[0m	advmgr	sector-storage/sched_worker.go:96	Worker closing	{"workerid": "d3ee7889-a909-4168-9111-bba6349efc77"}
+2021-07-13T09:28:05.022Z	[34mINFO[0m	stores	stores/remote.go:323	Delete http://192.168.18.13:3456/remote/sealed/s-t0625063-3
+2021-07-13T09:28:06.687Z	[34mINFO[0m	stores	stores/remote.go:323	Delete http://192.168.18.13:3456/remote/cache/s-t0625063-3
+2021-07-13T09:28:09.521Z	[34mINFO[0m	stores	stores/remote.go:323	Delete http://192.168.18.13:3456/remote/unsealed/s-t0625063-3
+2021-07-13T09:28:10.954Z	[31mERROR[0m	evtsm	go-statemachine@v0.0.0-20200925024713-05bd7c71fbfe/machine.go:83	Executing event planner failed: running planner for state Removing failed:
+    github.com/filecoin-project/lotus/extern/storage-sealing.(*Sealing).plan
+        /mnt/jenkins/workspace/FIC-Intel-Rel1.2_github/lotus/extern/storage-sealing/fsm.go:218
+  - planner for state Removing received unexpected event sealing.SectorRetrySealPreCommit1 ({User:{}}):
+    github.com/filecoin-project/lotus/extern/storage-sealing.planOne.func1
+        /mnt/jenkins/workspace/FIC-Intel-Rel1.2_github/lotus/extern/storage-sealing/fsm.go:523
+2021-07-13T09:37:15.672Z	[33mWARN[0m	advmgr	sector-storage/manager.go:333	stub NewSector
+2021-07-13T09:37:15.672Z	[34mINFO[0m	sectors	storage-sealing/garbage.go:18	Pledge {{625063 4} 6}, contains []
+[6 7]
+acceptableWindows[sqi][i]: 7
+acceptableWindows[sqi][j]: 6
+wii: 4de0038b-611a-4976-80e5-52ce5d9452c5
+wji: 4de0038b-611a-4976-80e5-52ce5d9452c5
+run task worker id: 4de0038b-611a-4976-80e5-52ce5d9452c5
+2021-07-13T09:37:16.745Z	[33mWARN[0m	advmgr	sector-storage/manager.go:333	stub NewSector
+2021-07-13T09:37:16.745Z	[34mINFO[0m	sectors	storage-sealing/garbage.go:18	Pledge {{625063 5} 6}, contains []
+[7 6]
+acceptableWindows[sqi][i]: 6
+acceptableWindows[sqi][j]: 7
+wii: 4de0038b-611a-4976-80e5-52ce5d9452c5
+wji: 4de0038b-611a-4976-80e5-52ce5d9452c5
+run task worker id: 4de0038b-611a-4976-80e5-52ce5d9452c5
+2021-07-13T09:37:17.818Z	[33mWARN[0m	advmgr	sector-storage/manager.go:333	stub NewSector
+2021-07-13T09:37:17.818Z	[34mINFO[0m	sectors	storage-sealing/garbage.go:18	Pledge {{625063 6} 6}, contains []
+[7 6]
+acceptableWindows[sqi][i]: 6
+acceptableWindows[sqi][j]: 7
+wii: 4de0038b-611a-4976-80e5-52ce5d9452c5
+wji: 4de0038b-611a-4976-80e5-52ce5d9452c5
+run task worker id: 4de0038b-611a-4976-80e5-52ce5d9452c5
+2021-07-13T09:37:18.888Z	[33mWARN[0m	advmgr	sector-storage/manager.go:333	stub NewSector
+2021-07-13T09:37:18.888Z	[34mINFO[0m	sectors	storage-sealing/garbage.go:18	Pledge {{625063 7} 6}, contains []
+[7 6]
+acceptableWindows[sqi][i]: 6
+acceptableWindows[sqi][j]: 7
+wii: 4de0038b-611a-4976-80e5-52ce5d9452c5
+wji: 4de0038b-611a-4976-80e5-52ce5d9452c5
+run task worker id: 4de0038b-611a-4976-80e5-52ce5d9452c5
+2021-07-13T09:43:28.007Z	[33mWARN[0m	rpc	go-jsonrpc@v0.1.2/handler.go:279	error in RPC call to 'Filecoin.SectorsStatus': No state for /4:
+    github.com/filecoin-project/go-statestore.(*StoredState).Get
+        /root/gopath/pkg/mod/github.com/filecoin-project/go-statestore@v0.1.0/state.go:39
+  - datastore: key not found
+2021-07-13T09:43:33.915Z	[33mWARN[0m	rpc	go-jsonrpc@v0.1.2/handler.go:279	error in RPC call to 'Filecoin.SectorsStatus': No state for /4:
+    github.com/filecoin-project/go-statestore.(*StoredState).Get
+        /root/gopath/pkg/mod/github.com/filecoin-project/go-statestore@v0.1.0/state.go:39
+  - datastore: key not found
+2021-07-13T09:43:47.767Z	[33mWARN[0m	rpc	go-jsonrpc@v0.1.2/handler.go:279	error in RPC call to 'Filecoin.SectorsStatus': No state for /4:
+    github.com/filecoin-project/go-statestore.(*StoredState).Get
+        /root/gopath/pkg/mod/github.com/filecoin-project/go-statestore@v0.1.0/state.go:39
+  - datastore: key not found
+2021-07-13T09:43:55.953Z	[33mWARN[0m	rpc	go-jsonrpc@v0.1.2/handler.go:279	error in RPC call to 'Filecoin.SectorsStatus': No state for /4:
+    github.com/filecoin-project/go-statestore.(*StoredState).Get
+        /root/gopath/pkg/mod/github.com/filecoin-project/go-statestore@v0.1.0/state.go:39
+  - datastore: key not found
+2021-07-13T09:44:33.187Z	[34mINFO[0m	sectors	storage-sealing/sealing.go:430	Creating CC sector 4
+2021-07-13T09:44:33.212Z	[34mINFO[0m	sectors	storage-sealing/states_sealing.go:27	performing filling up rest of the sector...	{"sector": "4"}
+[7 6]
+acceptableWindows[sqi][i]: 6
+acceptableWindows[sqi][j]: 7
+wii: 4de0038b-611a-4976-80e5-52ce5d9452c5
+wji: 4de0038b-611a-4976-80e5-52ce5d9452c5
+run task worker id: 4de0038b-611a-4976-80e5-52ce5d9452c5
+2021-07-13T09:44:33.799Z	[34mINFO[0m	sectors	storage-sealing/sealing.go:430	Creating CC sector 6
+2021-07-13T09:44:33.823Z	[34mINFO[0m	sectors	storage-sealing/states_sealing.go:27	performing filling up rest of the sector...	{"sector": "6"}
+[7 6]
+acceptableWindows[sqi][i]: 6
+acceptableWindows[sqi][j]: 7
+wii: 4de0038b-611a-4976-80e5-52ce5d9452c5
+wji: 4de0038b-611a-4976-80e5-52ce5d9452c5
+run task worker id: 4de0038b-611a-4976-80e5-52ce5d9452c5
+2021-07-13T09:44:34.023Z	[34mINFO[0m	sectors	storage-sealing/sealing.go:430	Creating CC sector 5
+2021-07-13T09:44:34.027Z	[34mINFO[0m	sectors	storage-sealing/states_sealing.go:27	performing filling up rest of the sector...	{"sector": "5"}
+[6 7]
+acceptableWindows[sqi][i]: 7
+acceptableWindows[sqi][j]: 6
+wii: 4de0038b-611a-4976-80e5-52ce5d9452c5
+wji: 4de0038b-611a-4976-80e5-52ce5d9452c5
+run task worker id: 4de0038b-611a-4976-80e5-52ce5d9452c5
+2021-07-13T09:44:42.488Z	[34mINFO[0m	sectors	storage-sealing/sealing.go:430	Creating CC sector 7
+2021-07-13T09:44:42.512Z	[34mINFO[0m	sectors	storage-sealing/states_sealing.go:27	performing filling up rest of the sector...	{"sector": "7"}
+[7 6]
+acceptableWindows[sqi][i]: 6
+acceptableWindows[sqi][j]: 7
+wii: 4de0038b-611a-4976-80e5-52ce5d9452c5
+wji: 4de0038b-611a-4976-80e5-52ce5d9452c5
+run task worker id: 4de0038b-611a-4976-80e5-52ce5d9452c5
